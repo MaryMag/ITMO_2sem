@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+'*	nav_020_help.xml
+'*	Copyright (c) Websoft, 2006.  All rights reserved.
+-->
+<params>
+	<object>
+		<label>Help Popup Window</label>
+		<width>23</width>
+		<height>27</height>
+		<description>Help Popup Window</description>
+	</object>
+    <page name=" Window " w="220" h="160">
+		<param type="line" x="8" y="12" w="207" h="44"/>
+		<param type="label" text=" " x="11" y="6" w="6" h="13"/>
+		<param type="check" id="standardcolor" text="Use standard border color" def="yes" x="15" y="6" w="100" h="13">
+			<events>
+				<event name="check" target="lab_tabcolor" action="enable" />
+				<event name="check" target="tabcolor" action="enable" />
+				<event name="check" target="lab_bordercolor" action="disable" />
+				<event name="check" target="bordercolor" action="disable" />
+				<event name="uncheck" target="lab_tabcolor" action="disable" />
+				<event name="uncheck" target="tabcolor" action="disable" />
+				<event name="uncheck" target="lab_bordercolor" action="enable" />
+				<event name="uncheck" target="bordercolor" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_tabcolor" text="Standard border color:" x="15" y="22" w="90" h="13"/>
+		<param type="select" id="tabcolor" text="brown" def="brown" x="100" y="21" w="105" h="13">
+			<items>
+				<item id="brown" label="Brown"/>
+				<item id="red" label="Red"/>
+				<item id="crimson" label="Crimson"/>
+				<item id="orange" label="Orange"/>
+				<item id="yellow" label="Yellow"/>
+				<item id="olive" label="Olive"/>
+				<item id="green" label="Green"/>
+				<item id="teal" label="Teal"/>
+				<item id="turquoise" label="Turquoise"/>
+				<item id="steelblue" label="Steel Blue"/>
+				<item id="blue" label="Blue"/>
+				<item id="violet" label="Violet"/>
+				<item id="grey" label="Grey"/>
+			</items>
+		</param>
+		<param type="label" id="lab_bordercolor" text="Border color:" x="15" y="38" w="90" h="13"/>
+		<param type="color" id="bordercolor" text="" def="" x="100" y="37" w="93" h="13"/>
+		<param type="label" text="Header text:" x="10" y="62" w="90" h="13"/>
+		<param type="textedit" id="tabheader" text="Help" def="Help" x="100" y="61" w="93" h="13"/>
+		<param type="label" text="Window text:" x="10" y="78" w="90" h="13"/>
+		<param type="textedit" id="tabtext" text="" def="" x="100" y="77" w="93" h="13"/>
+		<param type="label" text="Window size    hor.:" x="10" y="94" w="84" h="13"/>
+		<param type="edit" id="tabwidth" text="500" def="500" x="100" y="93" w="20" h="13"/>
+		<param type="label" text="vert.:" x="130" y="94" w="20" h="13"/>
+		<param type="edit" id="tabheight" text="436" def="436" x="150" y="93" w="20" h="13"/>
+		<param type="label" text="pixels" x="170" y="94" w="40" h="13"/>
+		<param type="label" text="Window position  hor.:" x="10" y="110" w="90" h="13"/>
+		<param type="edit" id="tabx" text="23" def="23" x="100" y="109" w="20" h="13"/>
+		<param type="label" text="vert.:" x="130" y="110" w="20" h="13"/>
+		<param type="edit" id="taby" text="47" def="47" x="150" y="109" w="20" h="13"/>
+		<param type="label" text="pixels" x="170" y="110" w="40" h="13"/>
+		<param type="check" id="nav_lock" text="Strict Navigation mode" def="yes" x="10" y="126" w="184" h="13"/>
+    </page>
+	<page name=" Buttons " w="220" h="160">
+		<param type="line" x="8" y="12" w="207" h="94"/>
+		<param type="label" text=" " x="11" y="6" w="6" h="13"/>
+		<param type="check" id="standard" text="Use default button set" def="yes" x="15" y="6" w="85" h="13">
+			<events>
+				<event name="check" target="lab_n1_img" action="disable" />
+				<event name="check" target="lab_n2_img" action="disable" />
+				<event name="check" target="lab_n3_img" action="disable" />
+				<event name="check" target="lab_n4_img" action="disable" />
+				<event name="check" target="lab_n5_img" action="disable" />
+				<event name="check" target="n1_img" action="disable" />
+				<event name="check" target="n2_img" action="disable" />
+				<event name="check" target="n3_img" action="disable" />
+				<event name="check" target="n4_img" action="disable" />
+				<event name="check" target="n5_img" action="disable" />
+				<event name="uncheck" target="lab_n1_img" action="enable" />
+				<event name="uncheck" target="lab_n2_img" action="enable" />
+				<event name="uncheck" target="lab_n3_img" action="enable" />
+				<event name="uncheck" target="lab_n4_img" action="enable" />
+				<event name="uncheck" target="lab_n5_img" action="enable" />
+				<event name="uncheck" target="n1_img" action="enable" />
+				<event name="uncheck" target="n2_img" action="enable" />
+				<event name="uncheck" target="n3_img" action="enable" />
+				<event name="uncheck" target="n4_img" action="enable" />
+				<event name="uncheck" target="n5_img" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_n1_img" text="Enabled button:" x="15" y="25" w="130" h="13"/>
+		<param type="file" id="n1_img" text="" def="" x="120" y="24" w="70" h="13"/>
+		<param type="label" id="lab_n2_img" text="OnMouseOver button:" x="15" y="41" w="110" h="13"/>
+		<param type="file" id="n2_img" text="" def="" x="120" y="40" w="70" h="13"/>
+		<param type="label" id="lab_n3_img" text="OnClick button:" x="15" y="56" w="110" h="13"/>
+		<param type="file" id="n3_img" text="" def="" x="120" y="55" w="70" h="13"/>
+		<param type="label" id="lab_n4_img" text="Disabled button:" x="15" y="72" w="110" h="13"/>
+		<param type="file" id="n4_img" text="" def="" x="120" y="71" w="70" h="13"/>
+		<param type="label" id="lab_n5_img" text="Window close button:" x="15" y="87" w="110" h="13"/>
+		<param type="file" id="n5_img" text="" def="" x="120" y="86" w="70" h="13"/>
+		<param type="label" text="Enabled button tooltip:" x="10" y="110" w="110" h="13"/>
+		<param type="edit" id="alt_enabled" text="no" def="Help" x="120" y="109" w="90" h="13"/>
+		<param type="label" text="Disabled button tooltip:" x="10" y="126" w="110" h="13"/>
+		<param type="edit" id="alt_disabled" text="no" def="Access disabled" x="120" y="125" w="90" h="13"/>
+		<param type="label" text="Close button tooltip:" x="10" y="142" w="110" h="13"/>
+		<param type="edit" id="alt_close" text="no" def="Close help window" x="120" y="141" w="90" h="13"/>
+    </page>
+	<methods>
+		<method name="Constructor" label="Constructor" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function Constructor(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+					if(oParams==null) return false;
+					if(document.getElementById("boardFrame")==null) return false;
+					var sNavLock = oParams.selectSingleNode("nav_lock").text=="yes" ? "1" : "0";
+					oCurObj.setAttribute("navlock", sNavLock);
+					oCurObj.setAttribute("state", "enabled");
+					oCurObj.setAttribute("winstatus", "closed");
+					if(document.getElementById(argobj.pid+"_header").getElementsByTagName("p").length!=0) {
+						//fixing Gecko-specific p rendering
+						var tmp = document.getElementById(argobj.pid+"_header").getElementsByTagName("p");
+						for(var i=0;i<tmp.length;i++) {
+							tmp[i].style.padding = "0px";
+							tmp[i].style.margin = "0px";
+						}
+					}
+					if(document.getElementById(argobj.pid+"_help_window_clone")==null) {
+						var oObj = document.getElementById(argobj.pid+"_help_window_div").cloneNode(true);
+						oObj.setAttribute("id", argobj.pid+"_help_window_clone");
+						document.getElementById("boardFrame").appendChild(oObj);
+					}
+					AddEvtHandler("EVENT_SLIDE_OPENED", "nav_020_help", argobj.pid);
+					AddEvtHandler("EVENT_SLIDE_COMPLETE", "nav_020_help", argobj.pid);
+					AddEvtHandler("EVENT_NAVIGATION", "nav_020_help", argobj.pid);
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="HandleEvt" label="HandleEvt" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function HandleEvt(oEvtHandler, oArg)
+				{
+					var argobj = new Object;
+					argobj.pid = oEvtHandler.sTargetId;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var sCurrentSlideId = g_oSlide.getAttribute("id");
+					var sSavedSlideId = oCurObj.getAttribute("sid");
+					if(sSavedSlideId==null) sSavedSlideId = "";
+					switch (oEvtHandler.sEvt) {
+						case "EVENT_SLIDE_OPENED":
+							if(sSavedSlideId!=sCurrentSlideId) oCurObj.setAttribute("sid","");
+							if(oCurObj.getAttribute("navlock")=="1") CallMethod("nav_020_help","DisableAccess",argobj);
+							break;
+						case "EVENT_SLIDE_COMPLETE":
+							if(oCurObj.getAttribute("state")=="disabled" && oCurObj.getAttribute("navlock")=="1" && sSavedSlideId=="") {
+								oCurObj.setAttribute("sid","");
+								CallMethod("nav_020_help","EnableAccess",argobj);
+							}
+							break;
+						case "EVENT_NAVIGATION":
+							if(oArg==null) return false;
+							if(oArg.sTargets=="help" || oArg.sTargets=="all") {
+								if(oArg.sAction=="on" && oCurObj.getAttribute("state")=="disabled") {
+									oCurObj.setAttribute("sid","");
+									CallMethod("nav_020_help","EnableAccess",argobj);
+								}
+								if(oArg.sAction=="off" && oCurObj.getAttribute("state")=="enabled") {
+									oCurObj.setAttribute("sid",sCurrentSlideId);
+									CallMethod("nav_020_help","DisableAccess",argobj);
+								}
+							}
+						default:
+							break;
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="ToggleWindow" label="TOGGLE WINDOW" access="public">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function ToggleWindow(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					if(document.getElementById(argobj.pid+"_help_window_clone")==null) {
+						var oObj = document.getElementById(argobj.pid+"_help_window_div").cloneNode(true);
+						oObj.setAttribute("id", argobj.pid+"_help_window_clone");
+						document.getElementById("boardFrame").appendChild(oObj);
+					} else {
+						var oObj = document.getElementById(argobj.pid+"_help_window_clone");
+					}
+					if(oObj.style.display != "none") {
+						oObj.style.display = "none";
+						oCurObj.setAttribute("winstatus","closed");
+						document.getElementById(argobj.pid+"_himg_en").src = document.getElementById(argobj.pid+"_img_en_0").src;
+					} else {
+						oObj.style.display =  g_isMSIE ? "inline" : "block";
+						oCurObj.setAttribute("winstatus","open");
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="DisableAccess" label="DISABLE ACCESS" access="public">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function DisableAccess(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					var bEnabled = oCurObj.getAttribute("state")=="enabled" ? true : false;
+					if(!bEnabled) return false;
+					if(document.getElementById(argobj.pid+"_help_window_div").style.display != "none") document.getElementById(argobj.pid+"_help_window_div").style.display = "none";
+					document.getElementById(argobj.pid+"_help_en").style.display = "none";
+					document.getElementById(argobj.pid+"_help_dis").style.display = g_isMSIE ? "inline" : "block";
+					oCurObj.setAttribute("state","disabled");
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="EnableAccess" label="ENABLE ACCESS" access="public">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function EnableAccess(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					var bEnabled = oCurObj.getAttribute("state")=="enabled" ? true : false;
+					if(bEnabled) return false;
+					document.getElementById(argobj.pid+"_help_dis").style.display = "none";
+					document.getElementById(argobj.pid+"_help_en").style.display = g_isMSIE ? "inline" : "block";
+					document.getElementById(argobj.pid+"_himg_en").src=document.getElementById(argobj.pid+"_img_en_0").src;
+					oCurObj.setAttribute("state","enabled");
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="GetProperty" label="GetProperty" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function GetProperty(argobj)
+				{
+					if(argobj.pid==null || argobj.property==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					switch(argobj.property.toLowerCase()) {
+						case "disabled":	g_vPropertyValue = oCurObj.getAttribute("state")=="disabled" ? "1" : "0";	break;
+						case "open":		g_vPropertyValue = oCurObj.getAttribute("winstatus")=="open" ? "1" : "0";	break;
+						default: return true;
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+	</methods>
+</params>

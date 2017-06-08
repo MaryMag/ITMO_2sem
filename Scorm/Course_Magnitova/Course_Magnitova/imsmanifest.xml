@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a SCORM 2004 manifest file, created 6/7/2017 3:05:09 PM by Мария Магнитова using CourseLab 090219 -->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" identifier="MANIFEST-E9C3B1E0_3A8C_4DF0_B1DD_F17D2FCB000B" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd" version="1.0">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>CAM 1.3</schemaversion>
+</metadata>
+<organizations default="magnitova">
+<organization identifier="magnitova">
+<title>Критерии оценки веб-ресурса поисковыми системами</title>
+<item identifier="search system" identifierref="RES1" parameters="?width=750&amp;height=530">
+<title>Maria Magnitova</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="RESCOURSEIMAGES" adlcp:scormType="asset" type="webcontent">
+<file href="courseimages/agenthub.swf"/>
+<file href="courseimages/courselab.js"/>
+<file href="courseimages/legacy.js"/>
+<file href="courseimages/lms.js"/>
+</resource>
+<resource identifier="RES1" adlcp:scormType="sco" href="1/start.html" type="webcontent">
+<file href="1/module.js"/>
+<file href="1/start.html"/>
+<file href="1/splash.xml"/>
+<file href="1/runtime.xml"/>
+<file href="1/images/1blank.gif"/>
+<file href="1/images/back_turq.jpg"/>
+<file href="1/images/button_close.gif"/>
+<file href="1/images/button_close_pas.gif"/>
+<file href="1/images/contents_bullet_1.gif"/>
+<file href="1/images/course.css"/>
+<file href="1/images/cursor_arrow.gif"/>
+<file href="1/images/cursor_click.gif"/>
+<file href="1/images/layout_back_turq.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_0.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_1.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_2.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_3.gif"/>
+<file href="1/images/nav_020_help/turquoise/help_close_window.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_0.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_1.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_2.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_3.gif"/>
+<file href="1/images/nav_021_contents/turquoise/contents_close_window.gif"/>
+<file href="1/images/nav_021_contents/turquoise/f_closed.gif"/>
+<file href="1/images/nav_021_contents/turquoise/f_open.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_current.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_unvisited.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_visited.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_check_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_check_1.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_next_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_next_1.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_skip_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/button_skip_1.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/choice_spot_1_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/choice_spot_1_2.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/range_spot_down_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/range_spot_down_1.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/range_spot_up_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/range_spot_up_1.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/select_spot_1_0.gif"/>
+<file href="1/images/q_099_test/basic/lightblue/select_spot_1_2.gif"/>
+<file href="1/images/splash_button_go/button_start1.gif"/>
+<file href="1/images/splash_button_go/button_wait.gif"/>
+<file href="1/images/ws_next_1.gif"/>
+<file href="1/images/ws_next_2.gif"/>
+<file href="1/images/ws_next_3.gif"/>
+<file href="1/images/ws_prev_1.gif"/>
+<file href="1/images/ws_prev_2.gif"/>
+<file href="1/images/ws_prev_3.gif"/>
+<dependency identifierref="RESCOURSEIMAGES"/>
+</resource>
+</resources>
+</manifest>

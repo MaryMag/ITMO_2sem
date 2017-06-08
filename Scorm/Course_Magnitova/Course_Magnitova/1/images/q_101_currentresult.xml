@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+'*	q_101_currentresult.xml
+'*	Copyright (c) Websoft, 2007.  All rights reserved.
+-->
+<params>
+	<object>
+		<label>Current Results</label>
+		<width>450</width>
+		<height>120</height>
+		<description>Current Results </description>
+	</object>
+	<page name=" Parameters " w="240" h="110">
+		<param type="label" text="Objective:" x="15" y="10" w="90" h="13"/>
+		<param type="objectiveid" id="q_board" text="total" def="total" x="105" y="9" w="110" h="13"/>
+		<param type="line" x="8" y="28" w="224" h="28"/>
+		<param type="check" id="q_curpoints" text="Display current score" def="yes" x="15" y="22" w="144" h="13">
+			<events>
+				<event name="check" target="lab_q_cpoints" action="enable" />
+				<event name="check" target="q_cpoints" action="enable" />
+				<event name="uncheck" target="lab_q_cpoints" action="disable" />
+				<event name="uncheck" target="q_cpoints" action="disable" />
+			</events>
+		</param>
+		<param type="label" id="lab_q_cpoints" text="Explanation:" x="15" y="39" w="90" h="13"/>
+		<param type="textedit" id="q_cpoints" text="" def="Current score" x="105" y="38" w="98" h="13"/>
+		<param type="line" x="8" y="63" w="224" h="28"/>
+		<param type="label" text=" " x="11" y="57" w="6" h="13"/>
+		<param type="check" id="q_maxpoints" text="Display maximal score" def="yes" x="15" y="57" w="156" h="13">
+			<events>
+				<event name="check" target="lab_q_mpoints" action="enable" />
+				<event name="check" target="q_mpoints" action="enable" />
+				<event name="uncheck" target="lab_q_mpoints" action="disable" />
+				<event name="uncheck" target="q_mpoints" action="disable" />
+			</events>
+		</param>
+		<param type="label" id="lab_q_mpoints" text="Explanation:" x="15" y="73" w="90" h="13"/>
+		<param type="textedit" id="q_mpoints" text="" def="Maximal score" x="105" y="72" w="98" h="13"/>
+		<param type="check" id="q_normalize" text="Normalize to 100%" def="yes" x="10" y="96" w="135" h="13"/>
+    </page>
+	<page name=" Display " w="240" h="110">
+		<param type="label" text="Border color:" x="10" y="10" w="110" h="13"/>
+		<param type="color" id="borcolor" text="#99CCFF" def="#99CCFF" x="120" y="9" w="45" h="13"/>
+		<param type="label" text="Cell background color:" x="10" y="26" w="110" h="13"/>
+		<param type="color" id="bgcolor" text="#FFFFFF" def="#FFFFFF" x="120" y="25" w="45" h="13"/>
+		<param type="label" text="Score font:" x="10" y="42" w="110" h="13"/>
+		<param type="select" id="r_font" text="Arial" def="Arial" x="120" y="41" w="80" h="13">
+			<items>
+				<item id="Arial" label="Arial"/>
+				<item id="Tahoma" label="Tahoma"/>
+				<item id="Times" label="Times"/>
+				<item id="Verdana" label="Verdana"/>
+				<item id="Courier" label="Courier"/>
+			</items>
+		</param>
+		<param type="label" text="Score font size:" x="10" y="58" w="110" h="13"/>
+		<param type="edit" id="r_font_size" text="" def="12" x="120" y="57" w="18" h="13"/>
+		<param type="label" text="pixels" x="142" y="58" w="50" h="13"/>
+		<param type="label" text="Score font weight:" x="10" y="74" w="110" h="13"/>
+		<param type="select" id="r_font_weight" text="normal" def="normal" x="120" y="73" w="80" h="13">
+			<items>
+				<item id="normal" label="Normal"/>
+				<item id="bold" label="Bold"/>
+			</items>
+		</param>
+		<param type="label" text="Score font color:" x="10" y="90" w="110" h="13"/>
+		<param type="color" id="r_font_color" text="#000000" def="#000000" x="120" y="89" w="45" h="13"/>
+	</page>
+	<methods>
+		<method name="Constructor" label="Constructor" access="private">
+            <params>
+            </params>
+            <body>
+                <![CDATA[
+                function Constructor(argobj)
+                {
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+					if(oParams==null) return false;
+					var oBoard = oParams.selectSingleNode("q_board");
+					if(oBoard==null) return false;
+					var sBoard = oBoard.text;
+					var oObjective = g_oSCO.selectSingleNode("objectives/o[@id='"+sBoard+"']")
+					if(oObjective==null) {
+						alert("Current Results cannot be displayed correctly: Objective is not defined");
+						return false;
+					}
+					var bNorm = oParams.selectSingleNode("q_normalize").text=="yes" ? true : false;
+					var sMaxScore = oObjective.getAttribute("max");
+					var iMaxScore = parseFloat(sMaxScore);
+					if(isNaN(iMaxScore)) {
+						alert("Current Results cannot be displayed correctly: Objective max score is defined incorrecly");
+						return false;
+					}
+					oCurObj.setAttribute("board",sBoard);
+					var sCurScore = GetObjectiveScore(sBoard);
+					var iCurScore = parseFloat(sCurScore);
+					if(isNaN(iCurScore)) iCurScore = 0;
+					if(oParams.selectSingleNode("q_curpoints").text=="yes") document.getElementById(argobj.pid+"_curpoints").innerHTML = bNorm ? Math.round(iCurScore/iMaxScore*100) : sCurScore;
+					if(oParams.selectSingleNode("q_maxpoints").text=="yes") document.getElementById(argobj.pid+"_maxpoints").innerHTML = bNorm ? "100" : sMaxScore;
+					return true;
+				}
+                ]]>
+            </body>
+        </method>
+		<method name="Refresh" label="REFRESH" access="public">
+            <params>
+            </params>
+            <body>
+                <![CDATA[
+                function Refresh(argobj)
+                {
+                    if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+					if(oParams==null) return false;
+					var oBoard = oParams.selectSingleNode("q_board");
+					if(oBoard==null) return false;
+					var sBoard = oBoard.text;
+					var oObjective = g_oSCO.selectSingleNode("objectives/o[@id='"+sBoard+"']")
+					if(oObjective==null) return false;
+					var bNorm = oParams.selectSingleNode("q_normalize").text=="yes" ? true : false;
+					var sMaxScore = oObjective.getAttribute("max");
+					var iMaxScore = parseFloat(sMaxScore);
+					if(isNaN(iMaxScore)) return false;
+					var sCurScore = GetObjectiveScore(sBoard);
+					var iCurScore = parseFloat(sCurScore);
+					if(isNaN(iCurScore)) iCurScore = 0;
+					if(oParams.selectSingleNode("q_curpoints").text=="yes") document.getElementById(argobj.pid+"_curpoints").innerHTML = bNorm ? Math.round(iCurScore/iMaxScore*100) : sCurScore;
+					if(oParams.selectSingleNode("q_maxpoints").text=="yes") document.getElementById(argobj.pid+"_maxpoints").innerHTML = bNorm ? "100" : sMaxScore;
+					return true;
+                }
+                ]]>
+            </body>
+        </method>
+		<method name="GetProperty" label="GetProperty" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function GetProperty(argobj)
+				{
+					if(argobj.pid==null || argobj.property==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var sBoard = oCurObj.getAttribute("board");
+					var oObjective = g_oSCO.selectSingleNode("objectives/o[@id='"+sBoard+"']")
+					if(oObjective==null) return false;
+
+					switch(argobj.property.toLowerCase()) {
+						case "objectiveid":		g_vPropertyValue = sBoard; 	break;
+						case "rawscore":				g_vPropertyValue = oObjective.getAttribute("raw");		break;
+						case "scaledscore":			g_vPropertyValue = oObjective.getAttribute("scaled"); 	break;
+						case "maxscore":				g_vPropertyValue = oObjective.getAttribute("max"); 		break;
+						default: return true;
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+	</methods>
+</params>

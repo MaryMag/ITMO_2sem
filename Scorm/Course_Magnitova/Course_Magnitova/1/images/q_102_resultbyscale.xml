@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+'*	q_102_resultbyscale.xml
+'*	Copyright (c) Websoft, 2007.  All rights reserved.
+-->
+<params>
+	<object>
+		<label>Results By Objectives</label>
+		<width>640</width>
+		<height>400</height>
+		<description>Results By Objectives</description>
+	</object>
+	<page name=" Scales " w="240" h="140">
+		<param type="label" id="bank_label" text="Objectives:" x="15" y="9" w="60" h="13"/>
+		<param type="list" id="scoreboards" text="Objective" def="yes" x="15" y="9" w="210" h="100">
+			<params w="200" h="100" label="Objective">
+				<param type="label" text="Objective:" x="10" y="10" w="90" h="13"/>
+				<param type="objectiveid" id="scoreboard" text="Objective" def="total" x="100" y="9" w="73" h="13"/>
+				<param type="label" text="Objective name:" x="10" y="26" w="90" h="13"/>
+				<param type="textedit" id="sb_text" text="" def="Objective name" x="100" y="25" w="73" h="13"/>
+				<param type="label" text="Fill color (score):" x="10" y="42" w="90" h="13"/>
+				<param type="color" id="scorecolor" text="#009900" def="#009900" x="100" y="41" w="45" h="13"/>
+				<param type="label" text="Fill color (empty):" x="10" y="58" w="90" h="13"/>
+				<param type="color" id="emptycolor" text="#F0F0F0" def="#F0F0F0" x="100" y="57" w="45" h="13"/>
+				<param type="line" x="10" y="74" w="180" h="1"/>
+				<param type="button" id="OK" text="OK" x="85" y="82" w="50" h="14"/>
+				<param type="button" id="CANCEL" text="Cancel" x="140" y="82" w="50" h="14"/>
+			</params>
+		</param>
+		<param type="check" id="q_normalize" text="Normalize to 100%" def="yes" x="15" y="113" w="135" h="13"/>
+    </page>
+	<page name=" Display " w="240" h="140">
+		<param type="label" text="Background color:" x="10" y="10" w="110" h="13"/>
+		<param type="color" id="blockcolor" text="#F0F0F0" def="#F0F0F0" x="120" y="9" w="45" h="13"/>
+		<param type="label" text="Font:" x="10" y="26" w="110" h="13"/>
+		<param type="select" id="r_font" text="Arial" def="Arial" x="120" y="25" w="80" h="13">
+			<items>
+				<item id="Arial" label="Arial"/>
+				<item id="Tahoma" label="Tahoma"/>
+				<item id="Times" label="Times"/>
+				<item id="Verdana" label="Verdana"/>
+				<item id="Courier" label="Courier"/>
+			</items>
+		</param>
+		<param type="label" text="Font size:" x="10" y="42" w="110" h="13"/>
+		<param type="edit" id="r_font_size" text="12" def="12" x="120" y="41" w="18" h="13"/>
+		<param type="label" text="pixels" x="142" y="42" w="50" h="13"/>
+		<param type="label" text="Font weight:" x="10" y="58" w="110" h="13"/>
+		<param type="select" id="r_font_weight" text="normal" def="normal" x="120" y="57" w="80" h="13">
+			<items>
+				<item id="normal" label="Normal"/>
+				<item id="bold" label="Bold"/>
+			</items>
+		</param>
+		<param type="label" text="Font color:" x="10" y="74" w="110" h="13"/>
+		<param type="color" id="r_font_color" text="#000000" def="#000000" x="120" y="73" w="45" h="13"/>
+		<param type="label" text="Scale spacing:" x="10" y="90" w="110" h="13"/>
+		<param type="edit" id="scalemargin" text="2" def="2" x="120" y="89" w="18" h="13"/>
+		<param type="label" text="pixels" x="142" y="90" w="50" h="13"/>
+	</page>
+	<methods>
+		<method name="Constructor" label="Constructor" access="private">
+			<params>
+			</params>
+			<body>
+			<![CDATA[
+			function Constructor(argobj)
+			{
+				if(argobj.pid==null) return false;
+				var oCurObj = document.getElementById(argobj.pid);
+				if(oCurObj==null) return false;
+				var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+				if(oParams==null) return false;
+				var aBoards = oParams.selectNodes("scoreboards/item/scoreboard");
+				var bNorm = true;
+				try {
+					bNorm = oParams.selectSingleNode("q_normalize").text=="yes";
+				} catch(e) {}
+				if(aBoards.length==0) return false;
+				var sCurBoardID, sMaxScore;
+				var iMaxScore = 0;
+				var iRawScore = 0;
+				var iNormalized = 0;
+				var oCurBoard, oObj, oPart1, oPart2;
+				for(var i=0;i<aBoards.length;i++) {
+					sCurBoardID = aBoards[i].text;
+					oCurBoard = g_oSCO.selectSingleNode("objectives/o[@id='"+ sCurBoardID +"']");
+					if(oCurBoard==null) {
+						alert("Current Results: Objective "+sCurBoardID+" is not defined.");
+						return false;
+					}
+					sMaxScore = oCurBoard.getAttribute("max");
+					iMaxScore = parseFloat(sMaxScore);
+					if(isNaN(iMaxScore) || iMaxScore==0) iMaxScore = 100;
+					sRawScore = oCurBoard.getAttribute("raw");
+					iRawScore = parseFloat(sRawScore);
+					if(isNaN(iRawScore) || iRawScore==0) iRawScore = 0;
+					iNormalized = Math.round(iRawScore/iMaxScore*100);
+					if(iNormalized>100) iNormalized = 100;
+					oObj = document.getElementById(argobj.pid+"_"+sCurBoardID+"_scorespan");
+					if(oObj!=null) {
+						oObj.innerHTML = bNorm ? iNormalized +"%" : sRawScore;
+					} else continue;
+					oPart1 = document.getElementById(argobj.pid+"_"+sCurBoardID+"_scorepart");
+					oPart2 = document.getElementById(argobj.pid+"_"+sCurBoardID+"_emptypart");
+					if(oPart1!=null && oPart2!=null) {
+						if(iNormalized==0) iNormalized = 1;
+						oPart1.style.width = iNormalized+"%";
+						oPart2.style.width = (100-iNormalized)+"%";
+					} else continue;
+				}
+				return true;
+			}
+			]]>
+			</body>
+		</method>
+		<method name="Refresh" label="REFRESH" access="public">
+			<params>
+			</params>
+			<body>
+			<![CDATA[
+			function Refresh(argobj)
+			{
+				if(argobj.pid==null) return false;
+				var oCurObj = document.getElementById(argobj.pid);
+				if(oCurObj==null) return false;
+				var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+				if(oParams==null) return false;
+				var aBoards = oParams.selectNodes("scoreboards/item/scoreboard");
+				var bNorm = true;
+				try {
+					bNorm = oParams.selectSingleNode("q_normalize").text=="yes";
+				} catch(e) {}
+				if(aBoards.length==0) return false;
+				var sCurBoardID, sMaxScore;
+				var iMaxScore = 0;
+				var iRawScore = 0;
+				var iNormalized = 0;
+				var oCurBoard, oObj, oPart1, oPart2;
+				for(var i=0;i<aBoards.length;i++) {
+					sCurBoardID = aBoards[i].text;
+					oCurBoard = g_oSCO.selectSingleNode("objectives/o[@id='"+ sCurBoardID +"']");
+					if(oCurBoard==null) continue;
+					sMaxScore = oCurBoard.getAttribute("max");
+					iMaxScore = parseFloat(sMaxScore);
+					if(isNaN(iMaxScore) || iMaxScore==0) iMaxScore = 100;
+					sRawScore = oCurBoard.getAttribute("raw");
+					iRawScore = parseFloat(sRawScore);
+					if(isNaN(iRawScore) || iRawScore==0) iRawScore = 0;
+					iNormalized = Math.round(iRawScore/iMaxScore*100);
+					if(iNormalized>100) iNormalized = 100;
+					oObj = document.getElementById(argobj.pid+"_"+sCurBoardID+"_scorespan");
+					if(oObj!=null) {
+						oObj.innerHTML = bNorm ? iNormalized +"%" : sRawScore;
+					} else continue;
+					oPart1 = document.getElementById(argobj.pid+"_"+sCurBoardID+"_scorepart");
+					oPart2 = document.getElementById(argobj.pid+"_"+sCurBoardID+"_emptypart");
+					if(oPart1!=null && oPart2!=null) {
+						if(iNormalized==0) iNormalized = 1;
+						oPart1.style.width = iNormalized+"%";
+						oPart2.style.width = (100-iNormalized)+"%";
+					} else continue;
+				}
+				return true;
+			}
+			]]>
+			</body>
+		</method>
+	</methods>
+</params>

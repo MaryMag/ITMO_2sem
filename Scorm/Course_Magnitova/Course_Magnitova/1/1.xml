@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Module file, saved 6/7/2017 3:04:16 PM by Мария Магнитова using CourseLab 090219 -->
+<module format="2.4 090219" rev="2" slideWidth="750" slideHeight="530" template="Relief\0001" file="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\1.xml">
+<font face="Arial" style="1" size="12" color="#000000"/>
+<newids slide="SLIDE_" subslide="FRAME_" iebox="TXT_" image="IMG_" object="OBJ_" group="GROUP_"/>
+<import masterid="" left="0" top="0" width="0" height="0" commentsLeft="0" commentsTop="0" commentsWidth="0" commentsHeight="0" importComments="no" commentscolor="#000000" fiximages="yes"/>
+<runtime showsplash="yes" seqslides="no" preloadimages="yes" normalize="no"/>
+<nextidentity slide="18" subslide="0" object="0" group="0" mousepointer="0" actionbox="0"/>
+<moduleColors>
+<color>996600</color>
+<color>cc9900</color>
+<color>ffcc00</color>
+<color>ffff00</color>
+<color>ffff99</color>
+<color>ffdb9d</color>
+<color>ffcc66</color>
+<color>ff9933</color>
+<color>ff794b</color>
+<color>ff3300</color>
+<color>990000</color>
+<color>333366</color>
+<color>003399</color>
+<color>0066cc</color>
+<color>0083d7</color>
+<color>0099ff</color>
+<color>3e9ade</color>
+<color>99ccff</color>
+<color>b4e2ff</color>
+<color>deffff</color>
+<color>ffccff</color>
+<color>ccccff</color>
+<color>9999ff</color>
+<color>6666cc</color>
+<color>9999cc</color>
+<color>666699</color>
+<color>006600</color>
+<color>009900</color>
+<color>66cc33</color>
+<color>99ff66</color>
+<color>ccffcc</color>
+</moduleColors>
+<customColors>
+<color>000000</color>
+</customColors>
+<slides>
+<slide guid="3c305000_0bb2_458f_9931_b55a05e877da" id="MASTER1" sid="1" master="1">
+<subslides>
+<subslide guid="c8f493fd_84a7_4357_85c0_c33eb2c5c4cd" id="FRAME_4" dur="0">
+<objects>
+<object type="image" guid="d9ac5d89_c793_4999_8acb_8e88f0db0c01" id="IMG_2" left="0" top="0" width="750" height="530" display="slide" begin="0">
+<src>images\layout_back_turq.gif</src>
+</object>
+<object type="iebox" guid="402ce521_0e07_4d6c_b7a4_91b233fa28e9" id="TXT_5" left="107" top="8" width="541" height="25" display="slide" begin="0">
+<content><![CDATA[<ietext><text>&lt;TABLE height=&quot;100%&quot; cellSpacing=0 cellPadding=0 width=&quot;100%&quot; border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD style=&quot;FONT-WEIGHT: bold; FONT-SIZE: 18px; VERTICAL-ALIGN: middle; COLOR: #fffffe; FONT-FAMILY: Tahoma; TEXT-ALIGN: center&quot;&gt;Insert Module Name&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="iebox" guid="abcac420_1da4_4a12_beaa_25cd543ad5d1" id="TXT_6" left="20" top="8" width="85" height="29" display="slide" begin="0">
+<content><![CDATA[<ietext><text>&lt;CENTER&gt;&lt;SPAN style=&quot;FONT-SIZE: 10px; COLOR: #fffffe; FONT-FAMILY: Arial&quot;&gt;Insert logo&lt;/SPAN&gt;&lt;/CENTER&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="div" guid="7cef9ed3_ddf4_4fcd_a893_304efc9c5cfa" id="OBJ_2" left="241" top="494" width="298" height="20" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_001_selector</template>
+<design_content><![CDATA[<select style="width:100%; text-align:; font-style:normal;font-weight:normal;font-family:Tahoma; font-size:11px; color:#000000; background-color: #FFFFFF;"  ><option value="0" style="background-color: #FFFFFF;">
+		Slidename list
+	</option></select>]]></design_content>
+<export_content><![CDATA[<select onchange="var oArgs = new Object; oArgs.pid = 'OBJ_2'; CallMethod('nav_001_selector','JumpToSlide',oArgs); return false;" id="OBJ_2_selector" name="OBJ_2_selector" style="width:100%; text-align:; font-style:normal;font-weight:normal;font-family:Tahoma; font-size:11px; color:#000000; background-color: #FFFFFF;"  ><option>Slides list</option></select>]]></export_content>
+<params>
+<input_bg_color>#FFFFFF</input_bg_color>
+<input_font>Tahoma</input_font>
+<input_font_size>11</input_font_size>
+<input_font_weight>normal</input_font_weight>
+<input_font_style>normal</input_font_style>
+<input_font_color>#000000</input_font_color>
+<hierarchy>yes</hierarchy>
+<nav_lock>yes</nav_lock>
+<msg>You cannot jump to this slide until you visit previous slides</msg>
+</params>
+</object>
+<object type="div" guid="10467fb6_f7d8_4763_ab8b_e0e00ad79128" id="OBJ_14" left="30" top="55" width="691" height="28" display="slide" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_010_slidename</template>
+<design_content><![CDATA[<table width="100%" cellpadding="3" cellspacing="0" border="0"  ><tr><td align="center" bgcolor="#ddf7f5"><span id="wsSlideName" style="width:100%; font-family: Arial; font-style:normal; font-weight:bold; font-size: 16px; text-align:center; color: #008080;">
+				Slide Name
+			</span></td></tr></table>]]></design_content>
+<export_content><![CDATA[<table width="100%" cellpadding="3" cellspacing="0" border="0"  ><tr><td align="center" bgcolor="#ddf7f5"><span id="OBJ_14_SlideName" style="width:100%; font-family: Arial; font-style:normal; font-weight:bold; font-size: 16px; text-align:center; color: #008080;" /></td></tr></table>]]></export_content>
+<params>
+<sn_backcolor>#ddf7f5</sn_backcolor>
+<sn_textcolor>#008080</sn_textcolor>
+<sn_font>Arial</sn_font>
+<sn_font_size>16</sn_font_size>
+<sn_font_weight>bold</sn_font_weight>
+<sn_font_style>normal</sn_font_style>
+<sn_textalign>center</sn_textalign>
+</params>
+</object>
+<object type="div" guid="1b9ce2d2_b5bb_4c59_b43a_25cc2d092d10" id="OBJ_3" left="85" top="494" width="200" height="20" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_002_position</template>
+<design_content><![CDATA[<table width="100%" height="100%" cellpadding="2" cellspacing="0" border="0"  ><tr><td align="right" valign="middle" width="50%" nowrap="nowrap"><span id="position_text" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">POSITION:</span></td><td align="left" valign="middle" width="50%" nowrap="nowrap"><span id="position_current" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">
+					1
+				</span><span id="position_div" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">/</span><span id="position_total" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">
+					1
+				</span></td></tr></table>]]></design_content>
+<export_content><![CDATA[<table width="100%" height="100%" cellpadding="2" cellspacing="0" border="0"  ><tr><td align="right" valign="middle" width="50%" nowrap="nowrap"><span style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">POSITION:</span></td><td align="left" valign="middle" width="50%" nowrap="nowrap"><span id="OBJ_3_position_current" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">
+					1
+				</span><span style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">/</span><span id="OBJ_3_position_total" style="font-family: Tahoma; color: #FEFFFF; font-weight: bold; font-style: normal; font-size: 11px;">
+					1
+				</span></td></tr></table>]]></export_content>
+<params>
+<position_text>POSITION:</position_text>
+<position_divider>/</position_divider>
+<position_font>Tahoma</position_font>
+<position_font_size>11</position_font_size>
+<position_font_weight>bold</position_font_weight>
+<position_font_style>normal</position_font_style>
+<position_font_color>#FEFFFF</position_font_color>
+</params>
+</object>
+<object type="div" guid="ad5a7ee4_931f_4a54_b827_03238e8b9ceb" id="OBJ_4" left="703" top="10" width="26" height="27" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_012_close</template>
+<design_content><![CDATA[<img border="0" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\button_close.gif"   />]]></design_content>
+<export_content><![CDATA[<div style="display:none;" id="OBJ_4_storage"  ><img border="0" id="OBJ_4_img_0" src="images/button_close.gif" /><img border="0" id="OBJ_4_img_1" src="images/button_close.gif" /><img border="0" id="OBJ_4_img_2" src="images/button_close_pas.gif" /></div><img border="0" style="display:inline; z-index:100; cursor:hand; cursor: pointer;" id="OBJ_4_CloseImg" src="images/button_close.gif" alt="Close module" onMouseOver="this.src=document.getElementById('OBJ_4_img_1').src;return false;" onMouseOut="this.src=document.getElementById('OBJ_4_img_0').src; return false;" onMouseDown="this.src=document.getElementById('OBJ_4_img_2').src;return false;" onMouseUp="if(confirm('Module window will be closed. Are you sure?')) { Shutdown(); window.close(); } else return false;"   />]]></export_content>
+<params>
+<standard>no</standard>
+<n1_img>images/button_close.gif</n1_img>
+<n2_img>images/button_close.gif</n2_img>
+<n3_img>images/button_close_pas.gif</n3_img>
+<alt_enabled>Close module</alt_enabled>
+<confirm>Module window will be closed. Are you sure?</confirm>
+</params>
+</object>
+<object type="div" guid="344a545e_5b4e_42e1_8d0e_39e082db0293" id="OBJ_5" left="54" top="491" width="23" height="27" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_021_contents</template>
+<design_content><![CDATA[<img border="0" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\nav_021_contents\turquoise\btn_contents_0.gif"   />]]></design_content>
+<export_content><![CDATA[<div style="display:none;" id="OBJ_5_storage"  ><img border="0" id="OBJ_5_img_en_0" src="images/nav_021_contents/turquoise/btn_contents_0.gif" /><img border="0" id="OBJ_5_img_en_1" src="images/nav_021_contents/turquoise/btn_contents_1.gif" /><img border="0" id="OBJ_5_img_en_2" src="images/nav_021_contents/turquoise/btn_contents_2.gif" /><img border="0" id="OBJ_5_img_dis" src="images/nav_021_contents/turquoise/btn_contents_3.gif" /><img border="0" align="absmiddle" id="OBJ_5_icon_open" src="images/nav_021_contents/turquoise/f_open.gif" /><img border="0" align="texttop" id="OBJ_5_icon_closed" src="images/nav_021_contents/turquoise/f_closed.gif" /><img border="0" align="absmiddle" id="OBJ_5_icon_unvisited" src="images/nav_021_contents/turquoise/icon_unvisited.gif" /><img border="0" align="absmiddle" id="OBJ_5_icon_current" src="images/nav_021_contents/turquoise/icon_current.gif" /><img border="0" align="absmiddle" id="OBJ_5_icon_visited" src="images/nav_021_contents/turquoise/icon_visited.gif" /></div><div id="OBJ_5_template_simple" style="display:none; margin: 1px; width:100%; border-top: #CCCCCC dotted 1px;"  ><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" style="background-color: #FFFFFF; padding-top:2px; padding-bottom:2px; padding-left:2px; padding-right:2px"><img border="0" src="images/nav_021_contents/turquoise/icon_unvisited.gif" /></td><td valign="top" width="100%" style="font-family: Tahoma; font-size: 11px; background-color: #FFFFFF; padding-top:2px; padding-bottom: 2px; padding-left:0px; padding-right:4px">%%var%%</td></tr></table></div><div id="OBJ_5_template_hier" style="display:none; margin: 1px; width:100%; border-top: #CCCCCC dotted 1px;"  ><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td valign="top" style="padding-top:3px; padding-bottom: 2px; padding-left:2px; padding-right:2px"><img border="0" src="images/nav_021_contents/turquoise/f_open.gif" onclick="if(document.getElementById(this.getAttribute('childdiv')).style.display=='none') { document.getElementById(this.getAttribute('childdiv')).style.display = g_isMSIE ? 'inline' : 'block'; this.src = this.getAttribute('iconopen'); } else { document.getElementById(this.getAttribute('childdiv')).style.display = 'none'; this.src = this.getAttribute('iconclosed');} return false;" /></td><td valign="top" style="background-color: #FFFFFF; padding-top:3px; padding-bottom: 2px; padding-left:2px; padding-right:2px"><img border="0" src="images/nav_021_contents/turquoise/icon_unvisited.gif" /></td><td valign="top" width="100%" style="font-family: Tahoma; font-size: 11px; background-color: #FFFFFF; padding-top:3px; padding-bottom: 2px; padding-left:0px; padding-right:4px">%%var%%</td></tr></table></div><div style="display:inline; z-index:100; cursor: hand; cursor: pointer;" id="OBJ_5_contents_en"  ><img border="0" id="OBJ_5_cimg_en" alt="Contents" src="images/nav_021_contents/turquoise/btn_contents_0.gif" onClick="var oArgs=new Object; oArgs.pid='OBJ_5'; CallMethod('nav_021_contents','ToggleWindow',oArgs);if(document.getElementById('OBJ_5').getAttribute('winstatus')=='closed'){ this.src=document.getElementById('OBJ_5_img_en_0').src;}return false;" onMouseDown="this.src=document.getElementById('OBJ_5_img_en_2').src; return false;" onMouseOver="if(document.getElementById('OBJ_5').getAttribute('winstatus')=='closed'){this.src=document.getElementById('OBJ_5_img_en_1').src; return false;}" onMouseOut="if(document.getElementById('OBJ_5').getAttribute('winstatus')=='closed'){ this.src=document.getElementById('OBJ_5_img_en_0').src; return false;}" /></div><div style="display:none; z-index:100; cursor:default;" id="OBJ_5_contents_dis"  ><img border="0" id="OBJ_5_cimg_dis" alt="Access is not allowed" src="images/nav_021_contents/turquoise/btn_contents_3.gif" /></div><div id="OBJ_5_contents_window_div" style="position:absolute; z-index: 900; top: 47px; left: 23px; display:none; visibility:visible; width: 500px; height: 436px;"  ><table cellspacing="0" cellpadding="10" style="width: 500px; height: 436px; border: #0A8EA2 solid 2px;"><tr><td width="100%" bgcolor="#FFFFFF" valign="top" align="center" id="OBJ_5_header"><SPAN style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial">
+<P align=center><SPAN style="FONT-FAMILY: Tahoma"><SPAN style="FONT-SIZE: 14px"><B><SPAN style="COLOR: #008080">Contents</SPAN></SPAN></B></SPAN></P></SPAN></td><td bgcolor="#FFFFFF" valign="top" align="center"><img border="0" id="OBJ_5_contents_close" alt="Close Contents window" src="images/nav_021_contents/turquoise/contents_close_window.gif" onClick="var oArgs=new Object; oArgs.pid='OBJ_5'; CallMethod('nav_021_contents','ToggleWindow',oArgs); return false;" style="cursor:hand; cursor:pointer" /></td></tr><tr><td width="100%" bgcolor="#FFFFFF" valign="top" colspan="2"><div style="&#xA;						overflow: auto;&#xA;						width:100%;&#xA;						background-color:#FFFFFF;&#xA;						height: 371px;&#xA;					">
+					...
+				</div></td></tr></table></div>]]></export_content>
+<params>
+<standardcolor>yes</standardcolor>
+<tabcolor>turquoise</tabcolor>
+<bordercolor></bordercolor>
+<tabheader>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial&amp;quot;&amp;gt;
+&amp;lt;P align=center&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Tahoma&amp;quot;&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 14px&amp;quot;&amp;gt;&amp;lt;B&amp;gt;&amp;lt;SPAN style=&amp;quot;COLOR: #008080&amp;quot;&amp;gt;Contents&amp;lt;/SPAN&amp;gt;&amp;lt;/SPAN&amp;gt;&amp;lt;/B&amp;gt;&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</tabheader>
+<tabwidth>500</tabwidth>
+<tabheight>436</tabheight>
+<tabx>23</tabx>
+<taby>47</taby>
+<standard>yes</standard>
+<n1_img></n1_img>
+<n2_img></n2_img>
+<n3_img></n3_img>
+<n4_img></n4_img>
+<n5_img></n5_img>
+<alt_enabled>Contents</alt_enabled>
+<alt_enabled>Contents</alt_enabled>
+<alt_close>Close Contents window</alt_close>
+<icon_default>yes</icon_default>
+<i1_img></i1_img>
+<i2_img></i2_img>
+<i3_img></i3_img>
+<hierarchy>yes</hierarchy>
+<hier_default>yes</hier_default>
+<h1_img></h1_img>
+<h2_img></h2_img>
+<nav_lock>yes</nav_lock>
+<alt_disabled>Access is not allowed</alt_disabled>
+<msg>You cannot jump to this slide until you visit previous slides</msg>
+</params>
+</object>
+<object type="div" guid="c5d9af5f_22d9_42e1_9a7c_92ca80365624" id="OBJ_6" left="22" top="491" width="23" height="27" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_020_help</template>
+<design_content><![CDATA[<?xml version="1.0"?><img border="0" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\nav_020_help\turquoise\btn_help_0.gif"   />]]></design_content>
+<export_content><![CDATA[<div style="display:none;" id="OBJ_6_storage"  ><img border="0" id="OBJ_6_img_en_0" src="images/nav_020_help/turquoise/btn_help_0.gif" /><img border="0" id="OBJ_6_img_en_1" src="images/nav_020_help/turquoise/btn_help_1.gif" /><img border="0" id="OBJ_6_img_en_2" src="images/nav_020_help/turquoise/btn_help_2.gif" /><img border="0" id="OBJ_6_img_dis" src="images/nav_020_help/turquoise/btn_help_3.gif" /></div><div style="display:inline; z-index:100; cursor: hand; cursor: pointer;" id="OBJ_6_help_en"  ><img border="0" id="OBJ_6_himg_en" alt="Help" src="images/nav_020_help/turquoise/btn_help_0.gif" onClick="var oArgs=new Object; oArgs.pid='OBJ_6'; CallMethod('nav_020_help','ToggleWindow',oArgs); return false;" onMouseDown="this.src=document.getElementById('OBJ_6_img_en_2').src; return false;" onMouseOver="if(document.getElementById('OBJ_6').getAttribute('winstatus')=='closed'){ this.src=document.getElementById('OBJ_6_img_en_1').src;} return false;" onMouseOut="if(document.getElementById('OBJ_6').getAttribute('winstatus')=='closed'){ this.src=document.getElementById('OBJ_6_img_en_0').src;} return false;" /></div><div style="display:none; z-index:100; cursor:default;" id="OBJ_6_help_dis"  ><img border="0" id="OBJ_6_himg_dis" alt="Access is not allowed" src="images/nav_020_help/turquoise/btn_help_3.gif" /></div><div id="OBJ_6_help_window_div" style="position:absolute; z-index: 900; top: 47px; left: 23px; display:none; visibility:visible; width: 500px; height: 436px;"  ><table cellspacing="0" cellpadding="10" style="width: 500px; height: 436px; border: #0A8EA2 solid 2px;"><tr><td width="90%" bgcolor="#FFFFFF" valign="top" align="center" id="OBJ_6_header"><SPAN style="FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial">
+<P align=center><SPAN style="FONT-FAMILY: Tahoma"><SPAN style="FONT-SIZE: 14px"><B><SPAN style="COLOR: #008080">Help</SPAN></B></SPAN></SPAN></P></SPAN></td><td bgcolor="#FFFFFF" valign="top" align="right"><img border="0" id="OBJ_6_help_close" alt="Close help window" src="images/nav_020_help/turquoise/help_close_window.gif" onclick="var oArgs=new Object; oArgs.pid='OBJ_6'; CallMethod('nav_020_help','ToggleWindow',oArgs); return false;" style="cursor:hand; cursor:pointer" /></td></tr><tr><td bgcolor="#FFFFFF" valign="top" align="center" colspan="2"><div style="&#xA;						overflow: auto;&#xA;						width:100%;&#xA;						background-color:#FFFFFF;&#xA;						height: 371px;&#xA;					"><TABLE style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif" cellSpacing=0 cellPadding=4 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle width=15 bgColor=#f0f0f0><IMG height=7 src="images/contents_bullet_1.gif" width=7 vspace=4 border=0> </TD>
+<TD bgColor=#f0f0f0><B>eLearning Module Structure</B></TD></TR></TBODY></TABLE>
+<TABLE style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif" cellSpacing=2 cellPadding=4 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<P>Learning Module is a fundamental building block of the Course hierarchy representing the set of author-structured Slides. During the learning process the learner is led from one Slide to another sequentially, which is default behavior. <BR>Slide (Interactive page) is the main building block of Learning Module. Slides are used by the author to place learning material, tests, and exercises. The order of Slide correlation is predefined by the author. </P></TD></TR></TBODY></TABLE>
+<TABLE style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif" cellSpacing=0 cellPadding=4 width="100%" border=0>
+<TBODY>
+<TR>
+<TD vAlign=top align=middle width=15 bgColor=#f0f0f0><IMG height=7 src="images/contents_bullet_1.gif" width=7 vspace=4 border=0> </TD>
+<TD bgColor=#f0f0f0><B>Navigation</B></TD></TR></TBODY></TABLE>
+<TABLE style="FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif" cellSpacing=2 cellPadding=4 width="100%" border=0>
+<TBODY>
+<TR>
+<TD>
+<P>eLearning Module navigation controls (the list may vary depending on author's design):</P>
+<UL>
+<LI>"Prev" and "Next" buttons enable to jump on previous and next slide correspondingly;&nbsp; 
+<LI>"Replay" button enable to start current slide&nbsp;once again from the beginning (it may be useful, for example, to repeat animation on slide etc.); 
+<LI>"Contents" tab or button with popup window displays the list of all slides and enables transition to any slide in the Module&nbsp;(if no&nbsp;restrictions were applied by author); 
+<LI>Navigation drop-down menu displays the list of all slides and enables transition to any slide in the Module&nbsp;(if no&nbsp;restrictions were applied by author); 
+<LI>"Sound On/Off" button&nbsp;toggles narration (if narration exists in the Module); 
+<LI>"Close Module" button closes Module window.</LI></UL>
+<P>Please note that some controls may become disabled while navigating. Usually it means that:</P>
+<UL>
+<LI>not all objects of&nbsp;current slide are displayed yet (depending on rules defined by author); 
+<LI>not all activities required from learner on current slide&nbsp;are finished (for example, navigation controls may be disabled until question is answered etc.); 
+<LI>navigation action is just impossible (for example, there's no slides previous to first one).</LI></UL>
+<P>&nbsp;</P></TD></TR></TBODY></TABLE></div></td></tr></table></div>]]></export_content>
+<params>
+<standardcolor>yes</standardcolor>
+<tabcolor>turquoise</tabcolor>
+<bordercolor></bordercolor>
+<tabheader>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: Arial&amp;quot;&amp;gt;
+&amp;lt;P align=center&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Tahoma&amp;quot;&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 14px&amp;quot;&amp;gt;&amp;lt;B&amp;gt;&amp;lt;SPAN style=&amp;quot;COLOR: #008080&amp;quot;&amp;gt;Help&amp;lt;/SPAN&amp;gt;&amp;lt;/B&amp;gt;&amp;lt;/SPAN&amp;gt;&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</tabheader>
+<tabtext>&lt;ietext&gt;&lt;text&gt;&amp;lt;TABLE style=&amp;quot;FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif&amp;quot; cellSpacing=0 cellPadding=4 width=&amp;quot;100%&amp;quot; border=0&amp;gt;
+&amp;lt;TBODY&amp;gt;
+&amp;lt;TR&amp;gt;
+&amp;lt;TD vAlign=top align=middle width=15 bgColor=#f0f0f0&amp;gt;&amp;lt;IMG height=7 src=&amp;quot;[!MODULE_IMAGES]contents_bullet_1.gif&amp;quot; width=7 vspace=4 border=0&amp;gt; &amp;lt;/TD&amp;gt;
+&amp;lt;TD bgColor=#f0f0f0&amp;gt;&amp;lt;B&amp;gt;eLearning Module Structure&amp;lt;/B&amp;gt;&amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TBODY&amp;gt;&amp;lt;/TABLE&amp;gt;
+&amp;lt;TABLE style=&amp;quot;FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif&amp;quot; cellSpacing=2 cellPadding=4 width=&amp;quot;100%&amp;quot; border=0&amp;gt;
+&amp;lt;TBODY&amp;gt;
+&amp;lt;TR&amp;gt;
+&amp;lt;TD&amp;gt;
+&amp;lt;P&amp;gt;Learning Module is a fundamental building block of the Course hierarchy representing the set of author-structured Slides. During the learning process the learner is led from one Slide to another sequentially, which is default behavior. &amp;lt;BR&amp;gt;Slide (Interactive page) is the main building block of Learning Module. Slides are used by the author to place learning material, tests, and exercises. The order of Slide correlation is predefined by the author. &amp;lt;/P&amp;gt;&amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TBODY&amp;gt;&amp;lt;/TABLE&amp;gt;
+&amp;lt;TABLE style=&amp;quot;FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif&amp;quot; cellSpacing=0 cellPadding=4 width=&amp;quot;100%&amp;quot; border=0&amp;gt;
+&amp;lt;TBODY&amp;gt;
+&amp;lt;TR&amp;gt;
+&amp;lt;TD vAlign=top align=middle width=15 bgColor=#f0f0f0&amp;gt;&amp;lt;IMG height=7 src=&amp;quot;[!MODULE_IMAGES]contents_bullet_1.gif&amp;quot; width=7 vspace=4 border=0&amp;gt; &amp;lt;/TD&amp;gt;
+&amp;lt;TD bgColor=#f0f0f0&amp;gt;&amp;lt;B&amp;gt;Navigation&amp;lt;/B&amp;gt;&amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TBODY&amp;gt;&amp;lt;/TABLE&amp;gt;
+&amp;lt;TABLE style=&amp;quot;FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif&amp;quot; cellSpacing=2 cellPadding=4 width=&amp;quot;100%&amp;quot; border=0&amp;gt;
+&amp;lt;TBODY&amp;gt;
+&amp;lt;TR&amp;gt;
+&amp;lt;TD&amp;gt;
+&amp;lt;P&amp;gt;eLearning Module navigation controls (the list may vary depending on author&amp;apos;s design):&amp;lt;/P&amp;gt;
+&amp;lt;UL&amp;gt;
+&amp;lt;LI&amp;gt;&amp;quot;Prev&amp;quot; and &amp;quot;Next&amp;quot; buttons enable to jump on previous and next slide correspondingly;&amp;amp;nbsp; 
+&amp;lt;LI&amp;gt;&amp;quot;Replay&amp;quot; button enable to start current slide&amp;amp;nbsp;once again from the beginning (it may be useful, for example, to repeat animation on slide etc.); 
+&amp;lt;LI&amp;gt;&amp;quot;Contents&amp;quot; tab or button with popup window displays the list of all slides and enables transition to any slide in the Module&amp;amp;nbsp;(if no&amp;amp;nbsp;restrictions were applied by author); 
+&amp;lt;LI&amp;gt;Navigation drop-down menu displays the list of all slides and enables transition to any slide in the Module&amp;amp;nbsp;(if no&amp;amp;nbsp;restrictions were applied by author); 
+&amp;lt;LI&amp;gt;&amp;quot;Sound On/Off&amp;quot; button&amp;amp;nbsp;toggles narration (if narration exists in the Module); 
+&amp;lt;LI&amp;gt;&amp;quot;Close Module&amp;quot; button closes Module window.&amp;lt;/LI&amp;gt;&amp;lt;/UL&amp;gt;
+&amp;lt;P&amp;gt;Please note that some controls may become disabled while navigating. Usually it means that:&amp;lt;/P&amp;gt;
+&amp;lt;UL&amp;gt;
+&amp;lt;LI&amp;gt;not all objects of&amp;amp;nbsp;current slide are displayed yet (depending on rules defined by author); 
+&amp;lt;LI&amp;gt;not all activities required from learner on current slide&amp;amp;nbsp;are finished (for example, navigation controls may be disabled until question is answered etc.); 
+&amp;lt;LI&amp;gt;navigation action is just impossible (for example, there&amp;apos;s no slides previous to first one).&amp;lt;/LI&amp;gt;&amp;lt;/UL&amp;gt;
+&amp;lt;P&amp;gt;&amp;amp;nbsp;&amp;lt;/P&amp;gt;&amp;lt;/TD&amp;gt;&amp;lt;/TR&amp;gt;&amp;lt;/TBODY&amp;gt;&amp;lt;/TABLE&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</tabtext>
+<tabwidth>500</tabwidth>
+<tabheight>436</tabheight>
+<tabx>23</tabx>
+<taby>47</taby>
+<nav_lock>yes</nav_lock>
+<standard>yes</standard>
+<n1_img></n1_img>
+<n2_img></n2_img>
+<n3_img></n3_img>
+<n4_img></n4_img>
+<n5_img></n5_img>
+<alt_enabled>Help</alt_enabled>
+<alt_enabled>Help</alt_enabled>
+<alt_close>Close help window</alt_close>
+<alt_disabled>Access is not allowed</alt_disabled>
+</params>
+</object>
+<object type="div" guid="ceb3247b_61ad_42d5_be42_6e84afaa4e1f" id="OBJ_7" left="663" top="491" width="68" height="28" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_008_next</template>
+<design_content><![CDATA[<img border="0" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\ws_next_1.gif"   />]]></design_content>
+<export_content><![CDATA[<div style="display:inline; z-index:10; cursor:hand; cursor: pointer;" id="OBJ_7_NextEnabled"  ><img border="0" src="images/ws_next_1.gif" alt="Next Slide" id="OBJ_7_NextImg" onMouseOver="MM_swapImage('OBJ_7_NextImg','','images/ws_next_1.gif',1);return false;" onClick="var oArgs = new Object; oArgs.pid ='OBJ_7'; CallMethod('nav_008_next', 'JumpNext', oArgs); return false;" onMouseDown="if('images/ws_next_3.gif'!=''){MM_swapImage('OBJ_7_NextImg','','images/ws_next_3.gif',1);}return false;" onMouseOut="MM_swapImgRestore(); return false;" onMouseUp="MM_swapImgRestore(); return false;" /></div><div style="display:none; z-index:11;" id="OBJ_7_NextDisabled"  ><img border="0" id="OBJ_7_Next_2" src="images/ws_next_2.gif" alt="Access is not allowed" /></div><div id="OBJ_7_NextHighlighted" style="display:none;"  ><img border="0" id="OBJ_7_Next_1" src="images/ws_next_1.gif" /></div><div id="OBJ_7_NextNormal" style="display:none;"  ><img border="0" id="OBJ_7_Next_0" src="images/ws_next_1.gif" /></div>]]></export_content>
+<params>
+<standard>no</standard>
+<n1_img>images/ws_next_1.gif</n1_img>
+<n2_img>images/ws_next_1.gif</n2_img>
+<n3_img>images/ws_next_2.gif</n3_img>
+<n4_img>images/ws_next_3.gif</n4_img>
+<alt_enabled>Next Slide</alt_enabled>
+<alt_disabled>Access is not allowed</alt_disabled>
+<nav_lock>yes</nav_lock>
+</params>
+</object>
+<object type="div" guid="685fb4ef_4b18_466f_99c9_ebf6588094c7" id="OBJ_8" left="588" top="491" width="67" height="27" display="frame" begin="0">
+<folder>
+Navigation</folder>
+<template>
+nav_009_prev</template>
+<design_content><![CDATA[<img border="0" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\ws_prev_1.gif"   />]]></design_content>
+<export_content><![CDATA[<div style="display:inline; z-index:10; cursor: hand; cursor: pointer;" id="OBJ_8_PrevEnabled"  ><img border="0" id="OBJ_8_PrevImg" alt="Next Slide" src="images/ws_prev_1.gif" onMouseOver="MM_swapImage('OBJ_8_PrevImg','','images/ws_prev_1.gif',1);return false;" onClick="var oArgs = new Object; oArgs.pid ='OBJ_8'; CallMethod('nav_009_prev', 'JumpPrev', oArgs); return false;" onMouseDown="if('images/ws_prev_3.gif'!=''){MM_swapImage('OBJ_8_PrevImg','','images/ws_prev_3.gif',1);}return false;" onMouseOut="MM_swapImgRestore(); return false;" onMouseUp="MM_swapImgRestore(); return false;" /></div><div style="display:none; z-index:11;" id="OBJ_8_PrevDisabled"  ><img border="0" id="OBJ_8_Prev_2" src="images/ws_prev_2.gif" alt="Access is not allowed" /></div><div style="display:none;" id="OBJ_8_PrevHighlighted"  ><img border="0" id="OBJ_8_Prev_1" src="images/ws_prev_1.gif" /></div><div style="display:none;" id="OBJ_8_PrevNormal"  ><img border="0" id="OBJ_8_Prev_0" src="images/ws_prev_1.gif" /></div>]]></export_content>
+<params>
+<standard>no</standard>
+<n1_img>images/ws_prev_1.gif</n1_img>
+<n2_img>images/ws_prev_1.gif</n2_img>
+<n3_img>images/ws_prev_2.gif</n3_img>
+<n4_img>images/ws_prev_3.gif</n4_img>
+<alt_enabled>Next Slide</alt_enabled>
+<alt_disabled>Access is not allowed</alt_disabled>
+<nav_lock>yes</nav_lock>
+</params>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="4de3620f_01a5_44a6_a52b_2b92bf809ed6" id="SLIDE_4" sid="2" splash="1">
+<subslides>
+<subslide guid="bd3629bd_4f83_4fe2_9233_fffb1ef44231" id="FRAME_3" dur="0">
+<objects>
+<object type="image" guid="e0f676a2_2de9_482a_80a0_07404cacd126" id="IMG_3" left="0" top="0" width="750" height="530" display="slide" begin="0">
+<src>images\back_turq.jpg</src>
+</object>
+<object type="div" guid="027799b8_e391_42db_9071_5b98913f657c" id="OBJ_15" left="535" top="461" width="166" height="31" display="slide" begin="0">
+<folder>
+Splash</folder>
+<template>
+splash_button_go</template>
+<design_content><![CDATA[<img border="0" width="166" height="31" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\splash_button_go\button_start1.gif"   />]]></design_content>
+<export_content><![CDATA[<img border="0" width="166" height="31" style="cursor:hand;cursor:pointer;" src="images/splash_button_go/button_start1.gif" onclick="this.src = 'images/splash_button_go/button_wait.gif'; StartModule();return false;"   />]]></export_content>
+<params>
+<standard>yes</standard>
+<wait_img>images/button_wait_teal.gif</wait_img>
+<go_img>images/button_start_teal.gif</go_img>
+</params>
+</object>
+<object type="iebox" guid="934e0f35_1e69_4892_acbe_62ecdab369ce" id="TXT_3" left="258" top="358" width="317" height="74" display="slide" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;COLOR: #deffff&quot;&gt;Курс по дипломной работе&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px&quot;&gt;&lt;SPAN style=&quot;COLOR: #deffff&quot;&gt;Магнитовой М.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="iebox" guid="76c51369_9e9f_4065_8332_c7ac3637aaf2" id="TXT_4" left="531" top="35" width="166" height="23" display="slide" begin="0">
+<content><![CDATA[<ietext><text>&lt;P align=center&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px&quot;&gt;ITMO University&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="7ab8c226_2095_4f4a_8eaa_3e03bc0920e2" id="SLIDE_1" sid="3" masterid="MASTER1" name="No name" indent="0" infinite="1">
+<subslides>
+<subslide guid="d5f63309_9476_4953_b67c_31a1b04c70b1" id="FRAME_5" dur="0">
+<objects>
+<object type="iebox" guid="f48dc10f_11c8_45f7_a5a7_377b8d1e8c43" id="TXT_7" left="188" top="181" width="380" height="95" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P align=center&gt;&lt;SPAN style=&quot;FONT-SIZE: 24px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;B&gt;Исследование критериев оценки веб-ресурса поисковыми системами&lt;/B&gt;&lt;/SPAN&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="iebox" guid="d1dec218_bec6_43a6_8e52_e69c59c206b1" id="TXT_8" left="117" top="304" width="524" height="50" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;Университет ИТМО, Магистерская программа Веб-технологии&lt;/SPAN&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="iebox" guid="d695b88d_011d_4d49_a54d_dcd300b35a0e" id="TXT_9" left="233" top="338" width="300" height="50" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P align=center&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;Магнитова Мария Владимировна&lt;/SPAN&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="9291a577_fa65_4b56_8e76_c059bf2db40d" id="SLIDE_5" sid="7" masterid="MASTER1" name="Основные определения данной области" indent="0" infinite="1">
+<subslides>
+<subslide guid="33b0201f_2286_4f6f_9f5d_4827ed921f89" id="FRAME_6" dur="0">
+<objects>
+<object type="iebox" guid="d898cf25_b61e_405e_b667_289ab86db043" id="TXT_11" left="62" top="118" width="610" height="299" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;FONT size=3 face=&quot;Times New Roman&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px; FONT-FAMILY: Arial&quot;&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;Робот&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp; &lt;/SPAN&gt;(&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;robot&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;) &lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Поисковая база данных (&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;index&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;database&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;) &lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Клиент&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Поисковая система &lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Релевантность поисковой выдачи&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Пертинентность поисковой выдачи&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Информационный шум&lt;/SPAN&gt;&lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;Информационные потери&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="9f966de8_1040_4328_a00f_d3ae464cdcf7" id="SLIDE_6" sid="8" masterid="MASTER1" name="Релевантность и пертинетность" indent="0" infinite="1">
+<subslides>
+<subslide guid="7ede20c3_86ba_4f89_b86e_bd90b5520829" id="FRAME_7" dur="0">
+<objects>
+<object type="iebox" guid="8718740d_ce0b_481d_b8a7_1348f085477f" id="TXT_12" left="85" top="144" width="601" height="323" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;Согласно ГОСТ 7.73-96: «&lt;B&gt;релевантный&lt;/B&gt;: соответствие полученной информации информационному запросу». Таким образом, релевантность определяется исключительно математическими моделями поиска конкретной поисковой системы. &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT face=&quot;Times New Roman&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;В том же ГОСТ говорится: «пертинентность; &lt;B&gt;пертинентный&lt;/B&gt;: соответствие полученной информации информационной потребности», т. е. пертинентность определяет степень соответствия между ожиданиями пользователя и результатами работы поисковой системы по данному запросу.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="4d007cd1_452c_4473_abc1_55ffed525e5b" id="SLIDE_7" sid="9" masterid="MASTER1" name="Основной принцип работы поисковых систем" indent="0" infinite="1">
+<subslides>
+<subslide guid="52430be6_5b54_429e_9e21_8c51ea055694" id="FRAME_8" dur="0">
+<objects>
+<object type="iebox" guid="902049f2_854d_4962_aece_067f0797fdcb" id="TXT_14" left="140" top="205" width="487" height="184" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;OL&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 24px; FONT-FAMILY: Arial&quot;&gt;Индексация &lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;веб-ресурсов&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 24px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #000000; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;«Понимание» запроса пользователя&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 24px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;COLOR: #000000; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Формирование релевантной (&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;пертинентной&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;) поисковой выдачи&lt;/SPAN&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/OL&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="d4232fa9_df4f_46dc_8b32_131c3d20b28e" id="SLIDE_8" sid="10" masterid="MASTER1" name="Индексация веб-ресурса" indent="0" infinite="1">
+<subslides>
+<subslide guid="fb888972_4083_4f02_84fa_68433b833d4b" id="FRAME_9" dur="0">
+<objects>
+<object type="iebox" guid="01a4dd75_811c_4dd7_8f45_bc038f68fd74" id="TXT_16" left="98" top="127" width="543" height="305" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;FONT size=3 face=&quot;Times New Roman&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 18px; FONT-FAMILY: Arial&quot;&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;Процесс&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;индексирования&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;сайтов&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;поисковой&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;системой&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;осуществляется&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; с &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;некоторой&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;п&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;ериодичностью&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;В процессе индексации формируется специальным образом&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;организованная БД,&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp; &lt;/SPAN&gt;содержащая лексические единицы&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;проиндексированных &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;веб-документов&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; и другую информацию&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=center&gt;о лексемах (в т.ч. их позиция в документах).&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="67ee816e_92e9_4134_b680_4e8d78ddc7f0" id="SLIDE_9" sid="11" masterid="MASTER1" name="&quot;Понимани&quot; запроса пользователя" indent="0" infinite="1">
+<subslides>
+<subslide guid="8ab11c48_f1a5_4c0b_abbb_d0edbc074bf2" id="FRAME_10" dur="0">
+<objects>
+<object type="iebox" guid="0f071619_6cad_40b7_8c89_3632f09fcf6a" id="TXT_18" left="77" top="140" width="610" height="247" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;FONT size=3 face=&quot;Times New Roman&quot;&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;Средняя длина запроса сегодня = &lt;SPAN style=&quot;FONT-FAMILY: Calibri; FONT-WEIGHT: bold; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt&quot;&gt;3 слова&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;О&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;дн&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;а &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;из&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;главных&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;проблем&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;-&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;неоднозначность&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;запросов&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; &lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;п&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt;ользователей&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-font-kerning: 12.0pt; mso-color-index: 1&quot;&gt; в связи с небольшой длинной запроса&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;(зачастую 1 слово) и особенностями естественного языка&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;(синонимия, многозначность).&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="5b196be6_e9a8_4965_8d8f_308f40222d97" id="SLIDE_10" sid="12" masterid="MASTER1" name="Интеллектуализация поисковых систем" indent="0" infinite="1">
+<subslides>
+<subslide guid="762bff9f_4d23_4895_a242_213688d190b3" id="FRAME_11" dur="0">
+<objects>
+<object type="iebox" guid="2b856053_5c09_4706_956a_229410f33b3f" id="TXT_20" left="86" top="129" width="575" height="130" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;P&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;FONT size=3 face=&quot;Times New Roman&quot;&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;Получил&lt;SPAN style=&quot;FONT-FAMILY: Calibri; FONT-VARIANT: normal; TEXT-TRANSFORM: none; FONT-WEIGHT: normal; FONT-STYLE: normal; LETTER-SPACING: 0pt; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt; mso-no-proof: no&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Arial&quot;&gt;и широкое распространение &lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;теории и методы&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;семантических сетей, &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;контент-анализа&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; и глубинного анализа&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;текстов (&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;TextMining&lt;/SPAN&gt;)&lt;/SPAN&gt;&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp; &lt;/SPAN&gt;и др.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.76pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot;&gt;&lt;/P&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+<object type="iebox" guid="ed9d5eb0_303e_4204_b1c0_e63d56217d4f" id="TXT_21" left="60" top="293" width="629" height="150" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial&quot;&gt;&lt;SPAN style=&quot;COLOR: #000000&quot;&gt;Поисковая&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;система&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; Bing &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;использует&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;алгоритм&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;RankNet&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;(&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Microsoft) &lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;на основе нейронных сетей&lt;/SPAN&gt; 
+&lt;LI&gt;
+&lt;DIV style=&quot;MARGIN-BOTTOM: 0pt; unicode-bidi: embed; WORD-BREAK: normal; DIRECTION: ltr; TEXT-ALIGN: left; MARGIN-LEFT: 0.38in; MARGIN-TOP: 5.28pt; TEXT-INDENT: -0.38in; language: ru; mso-line-break-override: none; punctuation-wrap: hanging&quot; align=left&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;С ноября 2009г. &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;поисковая&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;система&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; Яндекс &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;стала&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;использовать&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;алгоритм&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;машинного&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;обучения&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;собственной&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;разработки&lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;MatrixNet&lt;/SPAN&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="6aa664a2_9f3e_4ec1_b63c_d1d9f1562921" id="SLIDE_11" sid="13" masterid="MASTER1" name="Критерии формирования поисковой выдачи" indent="0" infinite="1">
+<subslides>
+<subslide guid="4bc6cef0_7bde_4d12_8f2b_7442c5a7d640" id="FRAME_12" dur="0">
+<objects>
+<object type="iebox" guid="828b8d98_a146_4339_a47f_6496f2734eb8" id="TXT_23" left="82" top="191" width="619" height="162" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Количество слов из запроса в содержимом документа&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Элементы (теги), в которых эти слова располагаются (теги заголовков, поля МЕТА и т.п.)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Местоположение искомых слов в документе&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;Удельный вес слов (относительная частота)&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="6c2f3cb3_f9dd_4de8_90a2_0b2291706fa9" id="SLIDE_12" sid="14" masterid="MASTER1" name="Внелингвистические критерии" indent="0" infinite="1">
+<subslides>
+<subslide guid="b11433b4_e6ea_4a18_bf1f_2a51ede63e37" id="FRAME_13" dur="0">
+<objects>
+<object type="iebox" guid="27d6bc3a_e5ce_4fe2_84c5_be3ed1b5645c" id="TXT_25" left="78" top="187" width="618" height="170" display="frame" begin="0">
+<content><![CDATA[<ietext><text>&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;«Время жизни» веб-ресурса –&lt;SPAN style=&quot;mso-spacerun: yes&quot;&gt;&amp;nbsp; &lt;/SPAN&gt;как долго веб-ресурс находится в базе поискового сервера&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Тематический индекс цитируемости (ТИЦ) – как много ссылок на данный документ идет с других &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;веб-ресурсов&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/LI&gt;
+&lt;LI&gt;&lt;SPAN style=&quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-SIZE: 20px; COLOR: #000000&quot;&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: ru; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;Индекс&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;популярности&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; – &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;как&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;часто&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;пользователи&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;обращались&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; к &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;данному&lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt; &lt;/SPAN&gt;&lt;SPAN style=&quot;FONT-FAMILY: Calibri; language: en-US; mso-ascii-font-family: Calibri; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-color-index: 1; mso-font-kerning: 12.0pt&quot;&gt;документу&lt;/SPAN&gt; &lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/SPAN&gt;</text><hyperlinks></hyperlinks></ietext>]]></content>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="f15234cf_ed2d_4daf_baff_333099229723" id="SLIDE_14" sid="17" masterid="MASTER1" name="Тест на усвоение темы" indent="0" infinite="1">
+<subslides>
+<subslide guid="015fccea_763b_4109_a5bb_d87c84698c18" id="FRAME_15" dur="0">
+<objects>
+<object type="div" guid="2254146f_630f_48b3_9e1e_7fd5fa8a1fb6" id="OBJ_10" left="25" top="78" width="700" height="400" display="frame" begin="0">
+<folder>
+Tests</folder>
+<template>
+q_099_test</template>
+<design_content><![CDATA[<table width="100%" height="100%" border="0" cellpadding="10" cellspacing="0"  ><tr><td width="100%" align="center" valign="middle" bgcolor="FEFEFE" style="border: #CCCCCC 1px solid;"><img width="93" height="39" vspace="5" src="C:\Users\Мария Магнитова\Desktop\Course_Magnitova\Course_Magnitova\1\images\q_099_test\test_img.gif&#xA;				" /></td></tr></table>]]></design_content>
+<export_content><![CDATA[<div style="display:none"  ><img border="0" id="OBJ_10_q_choicespot_0" src="images/q_099_test/basic/lightblue/choice_spot_1_0.gif" /><img border="0" id="OBJ_10_q_choicespot_2" src="images/q_099_test/basic/lightblue/choice_spot_1_2.gif" /><img border="0" id="OBJ_10_q_selectspot_0" src="images/q_099_test/basic/lightblue/select_spot_1_0.gif" /><img border="0" id="OBJ_10_q_selectspot_2" src="images/q_099_test/basic/lightblue/select_spot_1_2.gif" /><img border="0" id="OBJ_10_q_rangespot_up_0" src="images/q_099_test/basic/lightblue/range_spot_up_0.gif" /><img border="0" id="OBJ_10_q_rangespot_up_1" src="images/q_099_test/basic/lightblue/range_spot_up_1.gif" /><img border="0" id="OBJ_10_q_rangespot_down_0" src="images/q_099_test/basic/lightblue/range_spot_down_0.gif" /><img border="0" id="OBJ_10_q_rangespot_down_1" src="images/q_099_test/basic/lightblue/range_spot_down_1.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_check_0" src="images/q_099_test/basic/lightblue/button_check_0.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_check_1" src="images/q_099_test/basic/lightblue/button_check_1.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_skip_0" src="images/q_099_test/basic/lightblue/button_skip_0.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_skip_1" src="images/q_099_test/basic/lightblue/button_skip_1.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_next_0" src="images/q_099_test/basic/lightblue/button_next_0.gif" /><img width="150" height="25" border="0" id="OBJ_10_q_b_next_1" src="images/q_099_test/basic/lightblue/button_next_1.gif" /><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_choiceitem" style="margin-top: 2px; border: #DFEFFF solid 2px; background-color: #FFFFFF;"><tr><td valign="top" style="padding: 6px"><img border="0" src="images/q_099_test/basic/lightblue/choice_spot_1_0.gif" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; oArgs.qtype='choice'; oArgs.oid = this.getAttribute('spotid'); CallMethod('q_099_test','HandleClick',oArgs); return false;" /><img border="0" style="display: none" src="images/q_099_test/basic/lightblue/choice_spot_1_2.gif" /></td><td width="100%" style="padding: 6px">%%var%%</td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_selectitem" style="margin-top: 2px; border: #DFEFFF solid 2px; background-color: #FFFFFF;"><tr><td valign="top" style="padding: 6px"><img border="0" src="images/q_099_test/basic/lightblue/select_spot_1_0.gif" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; oArgs.qtype='select'; oArgs.oid = this.getAttribute('spotid'); CallMethod('q_099_test','HandleClick',oArgs); return false;" /><img border="0" style="display: none" src="images/q_099_test/basic/lightblue/select_spot_1_2.gif" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; oArgs.qtype='select'; oArgs.oid = this.getAttribute('spotid'); CallMethod('q_099_test','HandleClick',oArgs); return false;" /></td><td width="100%" style="padding: 6px">%%var%%</td></tr></table><table width="100%" border="0" cellpadding="4" cellspacing="0" style="position:relative; margin-top: 2px; border: #DFEFFF solid 2px; background-color: #FFFFFF;" id="OBJ_10_q_rangeitem"><tr><td valign="top" style="padding: 6px;"><table cellpadding="0" cellspacing="0" border="0"><tr><td><img border="0" src="images/q_099_test/basic/lightblue/range_spot_up_0.gif" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; oArgs.qtype='range'; oArgs.oid = this.getAttribute('id'); CallMethod('q_099_test','HandleClick',oArgs); return false;" /></td></tr><tr><td><img border="0" src="images/q_099_test/basic/lightblue/range_spot_down_0.gif" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; oArgs.qtype='range'; oArgs.oid = this.getAttribute('id'); CallMethod('q_099_test','HandleClick',oArgs); return false;" /></td></tr></table></td><td width="100%" style="padding: 6px;">%%var%%</td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_numericitem" style="margin-top: 2px; border: #DFEFFF solid 2px; background-color: #FFFFFF;"><tr><td width="50%" valign="middle" align="right" style="padding: 6px">%%exp%%</td><td width="50%" valign="middle" align="left" style="padding: 6px"><input type="text" onkeypress="var oArgs=new Object; oArgs.pid='OBJ_10'; oArgs.iid=this.getAttribute('id'); oArgs.returnvalue = true; if(g_isMSIE) CallMethod('q_099_test','HandleKeyPressed',oArgs);if(!oArgs.returnvalue) return false;" onkeyup="var oArgs=new Object; oArgs.pid='OBJ_10'; oArgs.iid=this.getAttribute('id'); oArgs.returnvalue = true; CallMethod('q_099_test','CheckValue',oArgs);" style="font-family: Arial; color: #000000; background-color: #FFFFFF; font-size:12px; border-width: 2px; border-color: #DFEFFF; border-style: solid;" /></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_textitem" style="margin-top: 2px; border: #DFEFFF solid 2px; background-color: #FFFFFF;"><tr><td width="50%" valign="middle" align="right" style="padding: 6px">%%exp%%</td><td width="50%" valign="middle" align="left" style="padding: 6px"><input type="text" style="font-family: Arial; color: #000000; background-color: #FFFFFF; font-size:12px; border-width: 2px; border-color: #DFEFFF; border-style: solid;" onkeyup="var oArgs=new Object; oArgs.pid='OBJ_10'; oArgs.iid=this.getAttribute('id'); oArgs.returnvalue = true; CallMethod('q_099_test','IfValue',oArgs);" /></td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_targetitem" style="position: absolute; z-index: 20; top: 0px; left:0px; width: 250px; height: 40px; background-color: #FFFFFF; border-left: #66CCFF 2px solid; border-bottom: #66CCFF 2px solid; border-top: #66CCFF 2px solid; border-right: #66CCFF 2px dotted; background-color: #FFFFFF; overflow: hidden; padding: 3px"><tr><td>...</td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0" id="OBJ_10_q_bulletitem" style="display: none; position: absolute; z-index: 21; cursor:move; top: 0px; left:0px; width: 350px; height: 40px; background-color: #FFFFFF; border-right: #66CCFF 2px solid; border-bottom: #66CCFF 2px solid; border-top: #66CCFF 2px solid; border-left: #66CCFF 2px dotted; background-color: #FFFFFF; overflow: hidden; padding: 3px" onmousedown="DragBegin(this, event); this.style.zIndex = 22;" onmouseup="DragEnd(this, event); this.style.zIndex = 21;" onmousemove="DragMove(this, event);"><tr><td>...</td></tr></table></div><div id="OBJ_10_q_fb_template" style="display: none; position:absolute; top:50px; left:100px; width:250px; border-style:solid; border-width: 2px; z-index: 100;"  ><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%"><spacer height="1" width="50" /></td><td align="center" id="OBJ_10_q_fb_closebutton" style="cursor: hand; cursor: pointer; padding-left: 4px; padding-right: 3px; padding-top:1px; padding-bottom: 2px; background-color: black; color: white; font-family: Tahoma, sans-serif; font-size: 10px; font-weight: bold" onclick="var oArgs = new Object; oArgs.pid = 'OBJ_10'; CallMethod('q_099_test','HideFeedback',oArgs); return false;">
+					X
+				</td></tr><tr><td colspan="2" style="padding-top: 0px; padding-left: 6px; padding-right: 6px; padding-bottom:16px;"><div style="width:100%; text-align:center;" id="OBJ_10_q_fb_text">%%%</div></td></tr></table></div><div style="background-color: #FFFFFF;" id="OBJ_10_test_container"  ><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right:6px; vertical-align:top;" id="OBJ_10_q_imgcontainer" /><td width="100%" valign="top" id="OBJ_10_q_qcontainer"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF;"><tr><td width="100%" valign="top" style="width:100%; padding:6px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#336699;" id="OBJ_10_q_creditcontainer"><span id="OBJ_10_q_credited">Credited:</span><span style="margin-left: 4px; margin-right: 4px;">question</span><span id="OBJ_10_test_currentq">0</span><span style="margin-left: 4px; margin-right: 4px;">from</span><span id="OBJ_10_test_totalq">0</span></td></tr><tr id="OBJ_10_q_textcontainer"><td width="100%" style="padding:4px; border: #DFEFFF solid 2px; background-color: #EFF8FF" id="OBJ_10_q_text">
+								%%%
+						</td></tr><tr><td width="100%" style="padding:6px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#336699;" id="OBJ_10_q_objective">
+							%%%
+						</td></tr></table><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td width="100%" id="OBJ_10_q_holder"><div width="100%" id="OBJ_10_q_otoworkarea" style="position: relative; background-color:#DFEFFF; overflow: hidden; height: 5px;">
+								...
+							</div><div id="OBJ_10_q_workarea" style="position: relative; top:0px; left:0px; background-color:#FFFFFF;">
+								...
+							</div></td></tr></table><table width="100%" cellpadding="0" cellspacing="0" border="0" id="OBJ_10_q_button_area" style="margin-top: 2px; border: #DFEFFF solid 2px; background-color: #EFF8FF"><tr><td style="width:50%; text-align:left; padding: 4px; height: 33px;"><span style="display:none;" id="OBJ_10_q_b_check_container"><img style="cursor:hand; cursor:pointer;" border="0" id="OBJ_10_q_b_check_button" alt="Submit answer" src="images/q_099_test/basic/lightblue/button_check_0.gif" onmouseover="this.src = document.getElementById('OBJ_10_q_b_check_1').src; return false;" onmouseout="this.src = document.getElementById('OBJ_10_q_b_check_0').src; return false;" onclick="var oArgs=new Object; oArgs.pid='OBJ_10'; CallMethod('q_099_test','EvalAnswer',oArgs); return false;" /></span></td><td align="center" style="text-align:center; height: 33px;"><div style="display:inline;" id="OBJ_10_q_attempts_container"><table cellspacing="0" cellpadding="2" border="0"><tr><td align="right" nowrap="nowrap" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; ">Attempts:</td><td align="left" nowrap="nowrap" style="font-family:Arial, Helvetica, sans-serif; font-size:11px; " id="OBJ_10_q_attempts_count" /></tr></table></div></td><td align="right" width="50%" style="width:50%; text-align:right; padding: 4px; height: 33px;"><span style="display:none;" id="OBJ_10_q_b_skip_container"><img style="cursor:hand;cursor:pointer;" border="0" id="OBJ_10_q_b_skip_button" alt="Skip question" src="images/q_099_test/basic/lightblue/button_skip_0.gif" onmouseover="this.src = document.getElementById('OBJ_10_q_b_skip_1').src; return false;" onmouseout="this.src = document.getElementById('OBJ_10_q_b_skip_0').src; return false;" onclick="var oArgs=new Object; oArgs.pid='OBJ_10'; CallMethod('q_099_test','SkipQuestion',oArgs);return false;" /></span><div style="display:none;" id="OBJ_10_q_b_next_container"><img style="cursor:hand;cursor:pointer;" border="0" id="OBJ_10_q_b_next_button" alt="Next question" src="images/q_099_test/basic/lightblue/button_next_0.gif" onmouseover="this.src = document.getElementById('OBJ_10_q_b_next_1').src; return false;" onmouseout="this.src = document.getElementById('OBJ_10_q_b_next_0').src; return false;" onclick="var oArgs=new Object; oArgs.pid='OBJ_10'; oArgs.action='clicknext'; CallMethod(&quot;q_099_test&quot;,&quot;Dispatcher&quot;,oArgs);return false;" /></div><div style="display:none; font-family: Verdana,Arial,sans-serif; font-size: 10px" id="OBJ_10_q_nomore">No more answered questions</div><div style="display:none; font-family: Verdana,Arial,sans-serif; font-size: 10px" id="OBJ_10_q_testend">All questions are answered</div><div style="display:none; font-family: Verdana,Arial,sans-serif; font-size: 10px" id="OBJ_10_q_teststopped">Test is stopped</div></td></tr></table><table cellspacing="0" cellpadding="2" border="0" width="100%" id="OBJ_10_q_timer_area" style="display: none; margin-top: 2px; padding:4px; border: #DFEFFF solid 2px; background-color: #EFF8FF"><tr><td align="center" width="50%"></td><td align="center" style="text-align: center;"><table cellspacing="0" cellpadding="0" border="0" align="center" width="100%"><tr><td nowrap="nowrap" align="right" style="margin: 2px; padding:4px; text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#336699;">Question time limit:</td><td width="200" style="width: 200px; text-align:center; vertical-align: middle;"><div style="background-color:#00CC66; border: #666666 solid 1px; text-align:left; height: 10px; width: 200px" id="OBJ_10_q_timer_bg"><div style="background-color:#999999; height: 10px; width: 1px;" id="OBJ_10_q_timer_progress"><spacer width="1" height="1" /></div></div></td><td nowrap="nowrap" align="left" width="50%" style="margin: 2px; padding:4px; text-align:left; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#336699;" id="OBJ_10_q_timer_value">
+									 sec
+								</td></tr></table></td><td align="center" width="50%"></td></tr></table></td></tr></table></div>]]></export_content>
+<params>
+<q_questions>
+<item>
+<q_type>choice</q_type>
+<q_question>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial&amp;quot;&amp;gt;Определение &amp;quot;соответствие полученной информации информационной потребности&amp;quot; относится к понятию:&amp;lt;/SPAN&amp;gt;&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_question>
+<q_choice_variants>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Релевантность&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Пертинентность&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Информационный шум&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Информационные потери&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+</q_choice_variants>
+<q_select_variants></q_select_variants>
+<q_shuffle>yes</q_shuffle>
+<q_range_variants></q_range_variants>
+<q_numeric_variants></q_numeric_variants>
+<q_text_variants></q_text_variants>
+<q_showq>yes</q_showq>
+<q_oto_variants></q_oto_variants>
+<q_image></q_image>
+<q_att_auto>no</q_att_auto>
+<q_attempts>1</q_attempts>
+<q_timer_switch>no</q_timer_switch>
+<q_timer>10</q_timer>
+<q_skip>no</q_skip>
+<q_skipper1>no</q_skipper1>
+<q_skipper2>yes</q_skipper2>
+<q_weight>25</q_weight>
+<q_pointset_fixed>yes</q_pointset_fixed>
+<q_pointset_auto>no</q_pointset_auto>
+<q_scoreboards>
+<item>
+<q_board>total</q_board>
+</item>
+</q_scoreboards>
+<q_fb_switch>yes</q_fb_switch>
+<q_feedbackright>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Correct&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackright>
+<q_feedbackwrong>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackwrong>
+<q_feedbackexhausted>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect. No more attempts.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackexhausted>
+<q_feedbacktimeout>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Time is out.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbacktimeout>
+<q_feedbackleft>100</q_feedbackleft>
+<q_feedbacktop>50</q_feedbacktop>
+</item>
+<item>
+<q_type>choice</q_type>
+<q_question>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Выберите верную последовательность основного подхода работы поисковой системы:&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_question>
+<q_choice_variants>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Индексация, &amp;quot;понимание&amp;quot; запроса, формирование поисковой выдачи&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Формирование поисковой выдачи, &amp;quot;понимание&amp;quot; запроса, индексация&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;&amp;quot;Понимание&amp;quot; запроса, индексация,&amp;amp;nbsp;формирование поисковой выдачи&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+</q_choice_variants>
+<q_select_variants></q_select_variants>
+<q_shuffle>yes</q_shuffle>
+<q_range_variants></q_range_variants>
+<q_numeric_variants></q_numeric_variants>
+<q_text_variants></q_text_variants>
+<q_showq>yes</q_showq>
+<q_oto_variants></q_oto_variants>
+<q_image></q_image>
+<q_att_auto>no</q_att_auto>
+<q_attempts>1</q_attempts>
+<q_timer_switch>no</q_timer_switch>
+<q_timer>10</q_timer>
+<q_skip>no</q_skip>
+<q_skipper1>no</q_skipper1>
+<q_skipper2>yes</q_skipper2>
+<q_weight>25</q_weight>
+<q_pointset_fixed>yes</q_pointset_fixed>
+<q_pointset_auto>no</q_pointset_auto>
+<q_scoreboards>
+<item>
+<q_board>total</q_board>
+</item>
+</q_scoreboards>
+<q_fb_switch>yes</q_fb_switch>
+<q_feedbackright>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Correct&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackright>
+<q_feedbackwrong>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackwrong>
+<q_feedbackexhausted>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect. No more attempts.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackexhausted>
+<q_feedbacktimeout>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Time is out.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbacktimeout>
+<q_feedbackleft>100</q_feedbackleft>
+<q_feedbacktop>50</q_feedbacktop>
+</item>
+<item>
+<q_type>select</q_type>
+<q_question>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Выберите из списка лингвистические критерии формирования поисковой выдачи:&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_question>
+<q_choice_variants></q_choice_variants>
+<q_select_variants>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Количество слов из запроса в содержимом документа&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;&amp;quot;Время жизни&amp;quot; веб-ресурса&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Удельный вес слов (относительная частота)&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Индекс &amp;quot;популярности&amp;quot;&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+</q_select_variants>
+<q_shuffle>yes</q_shuffle>
+<q_range_variants></q_range_variants>
+<q_numeric_variants></q_numeric_variants>
+<q_text_variants></q_text_variants>
+<q_showq>yes</q_showq>
+<q_oto_variants></q_oto_variants>
+<q_image></q_image>
+<q_att_auto>no</q_att_auto>
+<q_attempts>1</q_attempts>
+<q_timer_switch>no</q_timer_switch>
+<q_timer>10</q_timer>
+<q_skip>no</q_skip>
+<q_skipper1>no</q_skipper1>
+<q_skipper2>yes</q_skipper2>
+<q_weight>25</q_weight>
+<q_pointset_fixed>yes</q_pointset_fixed>
+<q_pointset_auto>no</q_pointset_auto>
+<q_scoreboards>
+<item>
+<q_board>total</q_board>
+</item>
+</q_scoreboards>
+<q_fb_switch>yes</q_fb_switch>
+<q_feedbackright>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Correct&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackright>
+<q_feedbackwrong>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackwrong>
+<q_feedbackexhausted>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect. No more attempts.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackexhausted>
+<q_feedbacktimeout>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Time is out.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbacktimeout>
+<q_feedbackleft>100</q_feedbackleft>
+<q_feedbacktop>50</q_feedbacktop>
+</item>
+<item>
+<q_type>select</q_type>
+<q_question>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Выберите из списке ВНЕлингвистические критерии формирования поисковой выдачи:&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_question>
+<q_choice_variants></q_choice_variants>
+<q_select_variants>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Количество слов из запроса в содержимом документа&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;&amp;quot;Время жизни&amp;quot; веб-ресурса&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Удельный вес слов (относительная частота)&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>no</q_right>
+</item>
+<item>
+<q_variant>&lt;ietext&gt;&lt;text&gt;&amp;lt;P&amp;gt;&amp;lt;SPAN style=&amp;quot;FONT-SIZE: 12px; FONT-FAMILY: Arial; COLOR: #000000&amp;quot;&amp;gt;Индекс &amp;quot;популярности&amp;quot;&amp;lt;/SPAN&amp;gt;&amp;lt;/P&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_variant>
+<q_right>yes</q_right>
+</item>
+</q_select_variants>
+<q_shuffle>yes</q_shuffle>
+<q_range_variants></q_range_variants>
+<q_numeric_variants></q_numeric_variants>
+<q_text_variants></q_text_variants>
+<q_showq>yes</q_showq>
+<q_oto_variants></q_oto_variants>
+<q_image></q_image>
+<q_att_auto>no</q_att_auto>
+<q_attempts>1</q_attempts>
+<q_timer_switch>no</q_timer_switch>
+<q_timer>10</q_timer>
+<q_skip>no</q_skip>
+<q_skipper1>no</q_skipper1>
+<q_skipper2>yes</q_skipper2>
+<q_weight>25</q_weight>
+<q_pointset_fixed>yes</q_pointset_fixed>
+<q_pointset_auto>no</q_pointset_auto>
+<q_scoreboards>
+<item>
+<q_board>total</q_board>
+</item>
+</q_scoreboards>
+<q_fb_switch>yes</q_fb_switch>
+<q_feedbackright>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Correct&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackright>
+<q_feedbackwrong>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackwrong>
+<q_feedbackexhausted>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect. No more attempts.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbackexhausted>
+<q_feedbacktimeout>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Time is out.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_feedbacktimeout>
+<q_feedbackleft>100</q_feedbackleft>
+<q_feedbacktop>50</q_feedbacktop>
+</item>
+</q_questions>
+<test_scored>yes</test_scored>
+<test_q_timer_switch>no</test_q_timer_switch>
+<test_timer_switch>no</test_timer_switch>
+<test_timer></test_timer>
+<test_timer_s></test_timer_s>
+<repeat_test>no</repeat_test>
+<qtiimages>yes</qtiimages>
+<test_showright>no</test_showright>
+<test_fb_switch>yes</test_fb_switch>
+<test_feedbackright>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Correct&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</test_feedbackright>
+<test_feedbackwrong>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</test_feedbackwrong>
+<test_feedbackexhausted>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Incorrect. No more attempts.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</test_feedbackexhausted>
+<test_feedbacktimeout>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Time is out.&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</test_feedbacktimeout>
+<test_feedbackleft>100</test_feedbackleft>
+<test_feedbacktop>50</test_feedbacktop>
+<test_fb_timerswitch>yes</test_fb_timerswitch>
+<test_fb_timer>3</test_fb_timer>
+<q_realskin>basic</q_realskin>
+<q_skin>lightblue</q_skin>
+<input_border_style>solid</input_border_style>
+<input_border_width>2</input_border_width>
+<input_bg_color>#FFFFFF</input_bg_color>
+<input_font>Arial</input_font>
+<input_font_size>12</input_font_size>
+<input_font_color>#000000</input_font_color>
+<q_targetwidth>250</q_targetwidth>
+<q_bulletwidth>350</q_bulletwidth>
+<q_goal_right>CORRECT ANSWER</q_goal_right>
+<q_goal_last>LAST QUESTION STATE</q_goal_last>
+<q_goal_skip>QUESTION IS SKIPPED</q_goal_skip>
+<q_goal_failed>QUESTION IS SKIPPED AND FAILED</q_goal_failed>
+<t_continue_alert>Continued approach. Starting from first unanswered question.</t_continue_alert>
+<t_browse_alert>Test is already answered. Recurring approach is not allowed.</t_browse_alert>
+<t_secondrun_confirm>This test is already answered. Press OK to clear stored results and start new approach. Press Cancel otherwise.</t_secondrun_confirm>
+<q_skip_confirm>Skipped question will be evaluated as failed. Are you sure?</q_skip_confirm>
+<q_replay_confirm>There are unanswered questions. Continue?</q_replay_confirm>
+<q_input_alert>Please enter only numbers and signs</q_input_alert>
+<q_goal_choice>Select correct variant</q_goal_choice>
+<q_goal_select>Select all correct variants</q_goal_select>
+<q_goal_range>Place variants in correct order</q_goal_range>
+<q_goal_numeric>Enter numeric value</q_goal_numeric>
+<q_goal_text>Enter text string</q_goal_text>
+<q_goal_oto>Connect pairs to match correctly</q_goal_oto>
+<q_attempts_msg>Attempts:</q_attempts_msg>
+<q_scored_msg>Credited:</q_scored_msg>
+<q_notscored_msg>Not credited:</q_notscored_msg>
+<q_question_msg>question</q_question_msg>
+<q_from_msg>from</q_from_msg>
+<q_timer_msg>Question time limit:</q_timer_msg>
+<t_timer_msg>Test time limit:</t_timer_msg>
+<t_stop_msg>Test is stopped</t_stop_msg>
+<t_allanswered_msg>All questions are answered</t_allanswered_msg>
+<t_nomoreanswered_msg>No more answered questions</t_nomoreanswered_msg>
+<q_defaultbutton>yes</q_defaultbutton>
+<q_abtn_0></q_abtn_0>
+<q_abtn_1></q_abtn_1>
+<q_sbtn_0></q_sbtn_0>
+<q_sbtn_1></q_sbtn_1>
+<q_nbtn_0></q_nbtn_0>
+<q_nbtn_1></q_nbtn_1>
+<q_abtn_tooltip>Submit answer</q_abtn_tooltip>
+<q_sbtn_tooltip>Skip question</q_sbtn_tooltip>
+<q_nbtn_tooltip>Next question</q_nbtn_tooltip>
+<q_defaultspot>yes</q_defaultspot>
+<q_choicespot_0></q_choicespot_0>
+<q_choicespot_1></q_choicespot_1>
+<q_selectspot_0></q_selectspot_0>
+<q_selectspot_1></q_selectspot_1>
+<q_rangespot_up_0></q_rangespot_up_0>
+<q_rangespot_up_1></q_rangespot_up_1>
+<q_rangespot_down_0></q_rangespot_down_0>
+<q_rangespot_down_1></q_rangespot_down_1>
+</params>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+<slide guid="339448a8_9a07_43ba_8bf0_189221666b79" id="SLIDE_13" sid="18" masterid="MASTER1" name="Результаты тестирования" indent="0" infinite="1">
+<subslides>
+<subslide guid="c246ceff_462a_4643_962e_a430a57381b9" id="FRAME_14" dur="0">
+<objects>
+<object type="div" guid="68113b34_97d2_4036_8832_0254262b18c7" id="OBJ_11" left="150" top="205" width="450" height="120" display="frame" begin="0">
+<folder>
+Tests</folder>
+<template>
+q_101_currentresult</template>
+<design_content><![CDATA[<table width="100%" border="0" cellspacing="0" cellpadding="0"  ><tr><td bgcolor="#99CCFF"><table width="100%" border="0" cellspacing="2" cellpadding="5"><tr><td align="right" width="100%" bgcolor="#FFFFFF"><SPAN style="FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000">Current score</SPAN></td><td align="center" bgcolor="#FFFFFF" style="font-family: Arial; font-size: 12px; color: #000000; font-weight: normal;">
+							0
+					</td></tr><tr><td align="right" width="100%" bgcolor="#FFFFFF"><SPAN style="FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000">Maximal score</SPAN></td><td align="center" bgcolor="#FFFFFF" style="font-family: Arial; font-size: 12px; color: #000000; font-weight: normal;">100</td></tr></table></td></tr></table>]]></design_content>
+<export_content><![CDATA[<table width="100%" border="0" cellspacing="0" cellpadding="0"  ><tr><td bgcolor="#99CCFF"><table width="100%" border="0" cellspacing="2" cellpadding="5"><tr><td align="right" width="100%" bgcolor="#FFFFFF"><SPAN style="FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000">Current score</SPAN></td><td align="center" bgcolor="#FFFFFF" id="OBJ_11_curpoints" style="font-family: Arial; font-size: 12px; color: #000000; font-weight: normal;">
+							0
+					</td></tr><tr><td align="right" width="100%" bgcolor="#FFFFFF"><SPAN style="FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000">Maximal score</SPAN></td><td align="center" bgcolor="#FFFFFF" id="OBJ_11_maxpoints" style="font-family: Arial; font-size: 12px; color: #000000; font-weight: normal;">
+							0
+					</td></tr></table></td></tr></table>]]></export_content>
+<params>
+<q_board>total</q_board>
+<q_curpoints>yes</q_curpoints>
+<q_cpoints>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Current score&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_cpoints>
+<q_maxpoints>yes</q_maxpoints>
+<q_mpoints>&lt;ietext&gt;&lt;text&gt;&amp;lt;SPAN style=&amp;quot;FONT-FAMILY: Arial;FONT-SIZE: 12px;COLOR: #000000&amp;quot;&amp;gt;Maximal score&amp;lt;/SPAN&amp;gt;&lt;/text&gt;&lt;hyperlinks&gt;&lt;/hyperlinks&gt;&lt;/ietext&gt;</q_mpoints>
+<q_normalize>yes</q_normalize>
+<borcolor>#99CCFF</borcolor>
+<bgcolor>#FFFFFF</bgcolor>
+<r_font>Arial</r_font>
+<r_font_size>12</r_font_size>
+<r_font_weight>normal</r_font_weight>
+<r_font_color>#000000</r_font_color>
+</params>
+</object>
+</objects>
+</subslide>
+</subslides>
+</slide>
+</slides>
+<objectives>
+<objective id="total" name="This is automatically created module objective." cs="i" ss="u" scoremax="100" scoremin="0" module="yes"/>
+</objectives>
+<runtimechecks>
+<runtimecheck id="MSMP" check="0"/>
+<runtimecheck id="MMFP" check="0"/>
+<runtimecheck id="MMSW" check="0"/>
+<runtimecheck id="APQT" check="0"/>
+</runtimechecks>
+</module>

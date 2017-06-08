@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Course file, saved 6/7/2017 7:15:32 PM by Мария Магнитова using CourseLab 090219 -->
+<course2>
+<aicc_code>magnitova</aicc_code>
+<aicc_name>Критерии оценки веб-ресурса поисковыми системами</aicc_name>
+<aicc_description>ITMO hometask</aicc_description>
+<modules>
+<module>
+<name>1</name>
+<folder_id>0</folder_id>
+<file>1\1.xml</file>
+<aicc_code>search system</aicc_code>
+<aicc_name>Maria Magnitova</aicc_name>
+<aicc_description>критерии оценки веб-ресурса поисковыми системами</aicc_description>
+<aicc_maxmark></aicc_maxmark>
+<aicc_reqmark></aicc_reqmark>
+</module>
+</modules>
+<windows>
+<window>
+<module>1</module>
+<zoom>100</zoom>
+<active>true</active>
+<slide>SLIDE_4</slide>
+</window>
+</windows>
+</course2>

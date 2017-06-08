@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is a SCORM 1.2 manifest file, created 6/7/2017 1:00:29 PM by Мария Магнитова using CourseLab 090219 -->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd" identifier="MANIFEST-E572C933_F12B_4A22_9A9B_716F6EB5DC2F" version="1.0">
+<metadata>
+<schema>ADL SCORM</schema>
+<schemaversion>1.2</schemaversion>
+</metadata>
+<organizations default="magnitova">
+<organization identifier="magnitova">
+<title>Критерии оценки веб-ресурса поисковыми системами</title>
+<item identifier="search system" identifierref="RES1" parameters="?width=750&amp;height=530">
+<title>Maria Magnitova</title>
+</item>
+</organization>
+</organizations>
+<resources>
+<resource identifier="RESCOURSEIMAGES" adlcp:scormtype="asset" type="webcontent">
+<file href="courseimages/agenthub.swf"/>
+<file href="courseimages/courselab.js"/>
+<file href="courseimages/legacy.js"/>
+<file href="courseimages/lms.js"/>
+</resource>
+<resource identifier="RES1" adlcp:scormtype="sco" href="1/start.html" type="webcontent">
+<file href="1/module.js"/>
+<file href="1/start.html"/>
+<file href="1/splash.xml"/>
+<file href="1/runtime.xml"/>
+<file href="1/images/1blank.gif"/>
+<file href="1/images/back_turq.jpg"/>
+<file href="1/images/button_close.gif"/>
+<file href="1/images/button_close_pas.gif"/>
+<file href="1/images/contents_bullet_1.gif"/>
+<file href="1/images/course.css"/>
+<file href="1/images/cursor_arrow.gif"/>
+<file href="1/images/cursor_click.gif"/>
+<file href="1/images/layout_back_turq.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_0.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_1.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_2.gif"/>
+<file href="1/images/nav_020_help/turquoise/btn_help_3.gif"/>
+<file href="1/images/nav_020_help/turquoise/help_close_window.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_0.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_1.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_2.gif"/>
+<file href="1/images/nav_021_contents/turquoise/btn_contents_3.gif"/>
+<file href="1/images/nav_021_contents/turquoise/contents_close_window.gif"/>
+<file href="1/images/nav_021_contents/turquoise/f_closed.gif"/>
+<file href="1/images/nav_021_contents/turquoise/f_open.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_current.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_unvisited.gif"/>
+<file href="1/images/nav_021_contents/turquoise/icon_visited.gif"/>
+<file href="1/images/splash_button_go/button_start1.gif"/>
+<file href="1/images/splash_button_go/button_wait.gif"/>
+<file href="1/images/ws_next_1.gif"/>
+<file href="1/images/ws_next_2.gif"/>
+<file href="1/images/ws_next_3.gif"/>
+<file href="1/images/ws_prev_1.gif"/>
+<file href="1/images/ws_prev_2.gif"/>
+<file href="1/images/ws_prev_3.gif"/>
+<dependency identifierref="RESCOURSEIMAGES"/>
+</resource>
+</resources>
+</manifest>

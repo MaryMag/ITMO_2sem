@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--
+'*	nav_021_contents.xml
+'*	Copyright (c) Websoft, 2006.  All rights reserved.
+-->
+<params>
+	<object>
+		<label>Contents Popup Window</label>
+		<width>23</width>
+		<height>27</height>
+		<description>Contents Popup Window</description>
+	</object>
+	<page name=" Window " w="260" h="190">
+		<param type="line" x="8" y="12" w="246" h="44"/>
+		<param type="label" text=" " x="11" y="6" w="6" h="13"/>
+		<param type="check" id="standardcolor" text="Use standard border color" def="yes" x="15" y="6" w="100" h="13">
+			<events>
+				<event name="check" target="lab_tabcolor" action="enable" />
+				<event name="check" target="tabcolor" action="enable" />
+				<event name="check" target="lab_bordercolor" action="disable" />
+				<event name="check" target="bordercolor" action="disable" />
+				<event name="uncheck" target="lab_tabcolor" action="disable" />
+				<event name="uncheck" target="tabcolor" action="disable" />
+				<event name="uncheck" target="lab_bordercolor" action="enable" />
+				<event name="uncheck" target="bordercolor" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_tabcolor" text="Standard border color:" x="15" y="22" w="90" h="13"/>
+		<param type="select" id="tabcolor" text="brown" def="brown" x="100" y="21" w="145" h="13">
+			<items>
+				<item id="brown" label="Brown"/>
+				<item id="red" label="Red"/>
+				<item id="crimson" label="Crimson"/>
+				<item id="orange" label="Orange"/>
+				<item id="yellow" label="Yellow"/>
+				<item id="olive" label="Olive"/>
+				<item id="green" label="Green"/>
+				<item id="teal" label="Teal"/>
+				<item id="turquoise" label="Turquoise"/>
+				<item id="steelblue" label="Steel Blue"/>
+				<item id="blue" label="Blue"/>
+				<item id="violet" label="Violet"/>
+				<item id="grey" label="Grey"/>
+			</items>
+		</param>
+		<param type="label" id="lab_bordercolor" text="Border color:" x="15" y="38" w="90" h="13"/>
+		<param type="color" id="bordercolor" text="" def="" x="100" y="37" w="127" h="13"/>
+		<param type="label" text="Header text:" x="10" y="62" w="90" h="13"/>
+		<param type="textedit" id="tabheader" text="Contents" def="Contents" x="100" y="61" w="133" h="13"/>
+		<param type="label" text="Window size    hor.:" x="10" y="78" w="84" h="13"/>
+		<param type="edit" id="tabwidth" text="500" def="500" x="100" y="77" w="20" h="13"/>
+		<param type="label" text="vert.:" x="130" y="76" w="20" h="13"/>
+		<param type="edit" id="tabheight" text="436" def="436" x="150" y="77" w="20" h="13"/>
+		<param type="label" text="pixels" x="173" y="76" w="40" h="13"/>
+		<param type="label" text="Window position  hor.:" x="10" y="93" w="90" h="13"/>
+		<param type="edit" id="tabx" text="23" def="23" x="100" y="92" w="20" h="13"/>
+		<param type="label" text="vert.:" x="130" y="93" w="20" h="13"/>
+		<param type="edit" id="taby" text="47" def="47" x="150" y="92" w="20" h="13"/>
+		<param type="label" text="pixels" x="173" y="93" w="40" h="13"/>
+    </page>
+	<page name=" Buttons " w="260" h="190">
+		<param type="line" x="8" y="12" w="246" h="94"/>
+		<param type="label" text=" " x="11" y="6" w="6" h="13"/>
+		<param type="check" id="standard" text="Use default button set" def="yes" x="15" y="6" w="85" h="13">
+			<events>
+				<event name="check" target="lab_n1_img" action="disable" />
+				<event name="check" target="lab_n2_img" action="disable" />
+				<event name="check" target="lab_n3_img" action="disable" />
+				<event name="check" target="lab_n4_img" action="disable" />
+				<event name="check" target="lab_n5_img" action="disable" />
+				<event name="check" target="n1_img" action="disable" />
+				<event name="check" target="n2_img" action="disable" />
+				<event name="check" target="n3_img" action="disable" />
+				<event name="check" target="n4_img" action="disable" />
+				<event name="check" target="n5_img" action="disable" />
+				<event name="uncheck" target="lab_n1_img" action="enable" />
+				<event name="uncheck" target="lab_n2_img" action="enable" />
+				<event name="uncheck" target="lab_n3_img" action="enable" />
+				<event name="uncheck" target="lab_n4_img" action="enable" />
+				<event name="uncheck" target="lab_n5_img" action="enable" />
+				<event name="uncheck" target="n1_img" action="enable" />
+				<event name="uncheck" target="n2_img" action="enable" />
+				<event name="uncheck" target="n3_img" action="enable" />
+				<event name="uncheck" target="n4_img" action="enable" />
+				<event name="uncheck" target="n5_img" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_n1_img" text="Enabled button:" x="15" y="25" w="110" h="13"/>
+		<param type="file" id="n1_img" text="" def="" x="130" y="24" w="70" h="13"/>
+		<param type="label" id="lab_n2_img" text="OnMouseOver button:" x="15" y="41" w="110" h="13"/>
+		<param type="file" id="n2_img" text="" def="" x="130" y="40" w="70" h="13"/>
+		<param type="label" id="lab_n3_img" text="OnClick button:" x="15" y="56" w="110" h="13"/>
+		<param type="file" id="n3_img" text="" def="" x="130" y="55" w="70" h="13"/>
+		<param type="label" id="lab_n4_img" text="Disabled button:" x="15" y="72" w="110" h="13"/>
+		<param type="file" id="n4_img" text="" def="" x="130" y="71" w="70" h="13"/>
+		<param type="label" id="lab_n5_img" text="Window close button:" x="15" y="87" w="110" h="13"/>
+		<param type="file" id="n5_img" text="" def="" x="130" y="86" w="70" h="13"/>
+		<param type="label" text="Enabled button tooltip:" x="10" y="110" w="110" h="13"/>
+		<param type="edit" id="alt_enabled" text="no" def="Contents" x="130" y="109" w="120" h="13"/>
+		<param type="label" text="Disabled button tooltip:" x="10" y="126" w="110" h="13"/>
+		<param type="edit" id="alt_disabled" text="no" def="Access disabled" x="130" y="125" w="120" h="13"/>
+		<param type="label" text="Close button tooltip:" x="10" y="142" w="110" h="13"/>
+		<param type="edit" id="alt_close" text="no" def="Close contents window" x="130" y="141" w="120" h="13"/>
+    </page>
+    <page name=" Parameters " w="260" h="190">
+		<param type="line" x="8" y="16" w="244" h="62"/>
+		<param type="label" text=" " x="11" y="10" w="6" h="13"/>
+		<param type="check" id="icon_default" text="Use default slide icon set" def="yes" x="15" y="10" w="110" h="13">
+			<events>
+				<event name="check" target="lab_i1_img" action="disable" />
+				<event name="check" target="lab_i2_img" action="disable" />
+				<event name="check" target="lab_i3_img" action="disable" />
+				<event name="check" target="i1_img" action="disable" />
+				<event name="check" target="i2_img" action="disable" />
+				<event name="check" target="i3_img" action="disable" />
+				<event name="uncheck" target="lab_i1_img" action="enable" />
+				<event name="uncheck" target="lab_i2_img" action="enable" />
+				<event name="uncheck" target="lab_i3_img" action="enable" />
+				<event name="uncheck" target="i1_img" action="enable" />
+				<event name="uncheck" target="i2_img" action="enable" />
+				<event name="uncheck" target="i3_img" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_i1_img" text="Unvisited slide icon:" x="15" y="28" w="110" h="13"/>
+		<param type="file" id="i1_img" text="" def="" x="125" y="27" w="100" h="13"/>
+		<param type="label" id="lab_i2_img" text="Current slide icon:" x="15" y="44" w="110" h="13"/>
+		<param type="file" id="i2_img" text="" def="" x="125" y="43" w="100" h="13"/>
+		<param type="label" id="lab_i3_img" text="Visited slide icon:" x="15" y="60" w="110" h="13"/>
+		<param type="file" id="i3_img" text="" def="" x="125" y="59" w="100" h="13"/>
+
+		<param type="line" x="8" y="84" w="244" h="66"/>
+		<param type="label" text=" " x="11" y="78" w="6" h="13"/>
+		<param type="check" id="hierarchy" text="Show slide hierarchy" def="no" x="15" y="78" w="80" h="13">
+			<events>
+				<event name="check" target="hier_default" action="enable" />
+				<event name="check" target="lab_h1_img" action="enable" />
+				<event name="check" target="lab_h2_img" action="enable" />
+				<event name="check" target="h1_img" action="enable" />
+				<event name="check" target="h2_img" action="enable" />
+				<event name="uncheck" target="hier_default" action="disable" />
+				<event name="uncheck" target="lab_h1_img" action="disable" />
+				<event name="uncheck" target="lab_h2_img" action="disable" />
+				<event name="uncheck" target="h1_img" action="disable" />
+				<event name="uncheck" target="h2_img" action="disable" />
+			</events>
+		</param>
+		<param type="line" x="12" y="98" w="236" h="46"/>
+		<param type="label" text=" " x="14" y="92" w="6" h="13"/>
+		<param type="check" id="hier_default" text="Use default node icon set" def="yes" x="20" y="92" w="110" h="13">
+			<events>
+				<event name="check" target="lab_h1_img" action="disable" />
+				<event name="check" target="lab_h2_img" action="disable" />
+				<event name="check" target="h1_img" action="disable" />
+				<event name="check" target="h2_img" action="disable" />
+				<event name="uncheck" target="lab_h1_img" action="enable" />
+				<event name="uncheck" target="lab_h2_img" action="enable" />
+				<event name="uncheck" target="h1_img" action="enable" />
+				<event name="uncheck" target="h2_img" action="enable" />
+			</events>
+		</param>
+		<param type="label" id="lab_h1_img" text="Closed node icon:" x="20" y="108" w="130" h="13"/>
+		<param type="file" id="h1_img" text="" def="" x="125" y="107" w="100" h="13"/>
+		<param type="label" id="lab_h2_img" text="Open node icon:" x="20" y="124" w="110" h="13"/>
+		<param type="file" id="h2_img" text="" def="" x="125" y="123" w="100" h="13"/>
+		<param type="check" id="nav_lock" text="Strict Navigation mode" def="yes" x="10" y="150" w="184" h="13"/>
+		<param type="label" text="Strict slide order message:" x="10" y="166" w="110" h="13"/>
+		<param type="edit" id="msg" text="" def="You cannot jump to this slide until you visit previous slides" x="125" y="165" w="125" h="13"/>
+	</page>
+	<methods>
+		<method name="Constructor" label="Constructor" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function Constructor(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']");
+					if(oParams==null) return false;
+					var bFirstRun = oCurObj.getAttribute("firstrun")==null ? true : false;
+					var oCurContents = document.getElementById(argobj.pid+"_contents");
+					var bStandard = oParams.selectSingleNode("standard").text=="yes" ? true : false;
+					var bHierarchy = oParams.selectSingleNode("hierarchy").text=="yes" ? true : false;
+					var sNavLock = oParams.selectSingleNode("nav_lock").text=="yes" ? "1" : "0";
+					if(bFirstRun) {
+						oCurObj.setAttribute("navlock", sNavLock);
+						oCurObj.setAttribute("firstrun", "1");
+						oCurObj.setAttribute("state", "enabled");
+						oCurObj.setAttribute("winstatus", "closed");
+						if(document.getElementById(argobj.pid+"_header").getElementsByTagName("p").length!=0) {
+							//fixing Gecko-specific p rendering
+							var aTmp = document.getElementById(argobj.pid+"_header").getElementsByTagName("p");
+							for(var i=0;i<aTmp.length;i++) {
+								aTmp[i].style.padding = "0px";
+								aTmp[i].style.margin = "0px";
+							}
+						}
+					}
+					if(document.getElementById(argobj.pid+"_contents_window_clone")==null) {
+						var oObj = document.getElementById(argobj.pid+"_contents_window_div").cloneNode(true);
+						oObj.setAttribute("id", argobj.pid+"_contents_window_clone");
+						document.getElementById("boardFrame").appendChild(oObj);
+					}
+					oCurContents = oObj.getElementsByTagName("div").item(0);
+					oCurContents.setAttribute("id", argobj.pid+"_contents");
+					oCurContents.innerHTML = "";
+					var	oSlides = g_oSlides.selectNodes("slide");
+					var oSlide,sName,sId,sIndent,oTmpl,oClone,aTags;
+					if(!bHierarchy) {
+						oTmpl = document.getElementById(argobj.pid+"_template_simple");
+						for(var i=0; i<oSlides.length;i++) {
+							oSlide = oSlides[i];
+							sName = oSlide.getAttribute("name");
+							sId = oSlide.getAttribute("id");
+							oClone = oTmpl.cloneNode(true);
+							aTags = oClone.getElementsByTagName("img");
+							aTags[0].setAttribute("id",argobj.pid+"_icon_"+sId);
+							aTags = oClone.getElementsByTagName("td");
+							aTags[1].setAttribute("id", argobj.pid+"_td_"+sId);
+							aTags[1].innerHTML = sName;
+							if(i==oSlides.length-1) {
+								oClone.style.borderBottom = oClone.style.borderTop;
+								oClone.style.paddingBottom = "1px";
+							}
+							oCurContents.appendChild(oClone);
+							oClone.style.display = g_isMSIE ? "inline" : "block";
+						}
+					} else {
+						oTmpl = document.getElementById(argobj.pid+"_template_hier");
+						var nIndent = 0;	var nNextIndent = 0;	var nPrevIndent = 0;
+						var oSlide = null;	var oNextSlide = null;	var oPrevSlide = null;
+						var oCurDiv = oCurContents;
+						var aDivs = new Array();
+						pushArray(aDivs,oCurDiv);
+						var oTmp;
+						for(var i=0; i<oSlides.length;i++) {
+							oSlide = oSlides[i];
+							sName = oSlide.getAttribute("name");
+							sId = oSlide.getAttribute("id");
+							nIndent = oSlide.getAttribute("indent");
+							if(nIndent!=0 && i==0) nIndent = 0;
+							if(nIndent>nPrevIndent) {
+								oCurDiv = document.createElement("div");
+								oCurDiv.setAttribute("id", argobj.pid+"_div_"+oPrevSlide.getAttribute("id"));
+								pushArray(aDivs,oCurDiv);
+							} else {
+								while(nIndent<nPrevIndent) {
+									oTmp = popArray(aDivs);
+									oCurDiv = popArray(aDivs);
+									oCurDiv.appendChild(oTmp);
+									pushArray(aDivs,oCurDiv);
+									nPrevIndent--;
+								}
+							}
+							oNextSlide = (i==oSlides.length-1) ? null : oSlides[i+1];
+							nNextIndent = (oNextSlide==null) ? 0 : oNextSlide.getAttribute("indent");
+							oClone = oTmpl.cloneNode(true);
+							oClone.setAttribute("id", argobj.pid+"_item_"+sId)
+							aTags = oClone.getElementsByTagName("img");
+							if(nNextIndent>nIndent) {
+								aTags[0].style.cursor = g_isMSIE ? "hand" : "pointer";
+								aTags[0].setAttribute("childdiv", argobj.pid+"_div_"+sId);
+								aTags[0].setAttribute("iconopen", document.getElementById(argobj.pid+"_icon_open").src);
+								aTags[0].setAttribute("iconclosed", document.getElementById(argobj.pid+"_icon_closed").src);
+							} else {
+								aTags[0].style.visibility = "hidden";
+							}
+							aTags[1].setAttribute("id",argobj.pid+"_icon_"+sId);
+							aTags = oClone.getElementsByTagName("td");
+							aTags[2].setAttribute("id", argobj.pid+"_td_"+sId);
+							aTags[2].innerHTML = sName;
+							if(nIndent!=0) {
+								var z = aTags[0].parentNode;
+								var x = aTags[1];
+								var y = aTags[0].cloneNode(true);
+								for(var j=0;j<nIndent;j++) {
+									y = aTags[0].cloneNode(true);
+									x = z.insertBefore(y,x);
+								}
+							}
+							oClone.style.display = g_isMSIE ? "inline" : "block";
+							if(i==oSlides.length-1) {
+								oClone.style.borderBottom = oClone.style.borderTop;
+								oClone.style.paddingBottom = "1px";
+							}
+							oCurDiv.appendChild(oClone);
+							oPrevSlide = oSlide;
+							nPrevIndent = nIndent;
+						}
+						if(aDivs.length>0) {
+							nIndent = 0;
+							while(nIndent<nPrevIndent) {
+								oTmp = popArray(aDivs);
+								oCurDiv = popArray(aDivs);
+								oCurDiv.appendChild(oTmp);
+								pushArray(aDivs,oCurDiv);
+								nPrevIndent--;
+							}
+						}
+					}
+					if(bFirstRun) {
+						AddEvtHandler("EVENT_SLIDE_OPENED", "nav_021_contents", argobj.pid);
+						AddEvtHandler("EVENT_SLIDE_COMPLETE", "nav_021_contents", argobj.pid);
+						AddEvtHandler("EVENT_NAVIGATION", "nav_021_contents", argobj.pid);
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="HandleEvt" label="HandleEvt" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function HandleEvt(oEvtHandler, oArg)
+				{
+					var argobj = new Object;
+					argobj.pid = oEvtHandler.sTargetId;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					var sCurrentSlideId = g_oSlide.getAttribute("id");
+					var sSavedSlideId = oCurObj.getAttribute("sid");
+					if(sSavedSlideId==null) sSavedSlideId = "";
+					switch (oEvtHandler.sEvt) {
+						case "EVENT_SLIDE_OPENED":
+							if(sSavedSlideId!=sCurrentSlideId) oCurObj.setAttribute("sid","");
+							if(oCurObj.getAttribute("closed")=="0") CallMethod("nav_021_contents","ToggleWindow",argobj);
+							if(oCurObj.getAttribute("navlock")=="1") CallMethod("nav_021_contents","DisableAccess",argobj);
+							break;
+						case "EVENT_SLIDE_COMPLETE":
+							if(oCurObj.getAttribute("state")=="disabled" && sSavedSlideId=="") {
+								oCurObj.setAttribute("sid","");
+								CallMethod("nav_021_contents","EnableAccess",argobj);
+							}
+							break;
+						case "EVENT_NAVIGATION":
+							if(oArg==null) return false;
+							if(oArg.sTargets=="contents" || oArg.sTargets=="all") {
+								if(oArg.sAction=="on" && oCurObj.getAttribute("state")=="disabled") {
+									oCurObj.setAttribute("sid","");
+									CallMethod("nav_021_contents","EnableAccess",argobj);
+								}
+								if(oArg.sAction=="off" && oCurObj.getAttribute("state")=="enabled") {
+									oCurObj.setAttribute("sid",sCurrentSlideId);
+									CallMethod("nav_021_contents","DisableAccess",argobj);
+								}
+							}
+						default:
+							break;
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="ToggleWindow" label="ToggleWindow" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function ToggleWindow(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(document.getElementById(argobj.pid+"_contents_window_clone")!=null) {
+						var oObj = document.getElementById(argobj.pid+"_contents_window_clone");
+						if(oObj.style.display != "none") {
+							oObj.style.display = "none";
+							oCurObj.setAttribute("winstatus","closed");
+							document.getElementById(argobj.pid+"_cimg_en").src=document.getElementById(argobj.pid+"_img_en_0").src;
+						} else {
+							CallMethod("nav_021_contents","UpdateContents",argobj);
+							oObj.style.display =  g_isMSIE ? "inline" : "block";
+							oCurObj.setAttribute("winstatus","open");
+						}
+					} else {
+						CallMethod("nav_021_contents","Constructor",argobj);
+						CallMethod("nav_021_contents","UpdateContents",argobj);
+						var oObj = document.getElementById(argobj.pid+"_contents_window_clone");
+						oObj.style.display =  g_isMSIE ? "inline" : "block";
+						oCurObj.setAttribute("winstatus","open");
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="DisableAccess" label="DISABLE POPUP" access="public">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function DisableAccess(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					var bEnabled = oCurObj.getAttribute("state")=="enabled" ? true : false;
+					if(!bEnabled) return false;
+					if(document.getElementById(argobj.pid+"_contents_window_clone")!=null) {
+						if(document.getElementById(argobj.pid+"_contents_window_clone").style.display != "none") document.getElementById(argobj.pid+"_contents_window_clone").style.display = "none";
+					}
+					document.getElementById(argobj.pid+"_contents_en").style.display = "none";
+					document.getElementById(argobj.pid+"_contents_dis").style.display = g_isMSIE ? "inline" : "block";
+					oCurObj.setAttribute("state","disabled");
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="EnableAccess" label="ENABLE POPUP" access="public">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function EnableAccess(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					var bEnabled = oCurObj.getAttribute("state")=="enabled" ? true : false;
+					if(bEnabled) return false;
+					document.getElementById(argobj.pid+"_contents_dis").style.display = "none";
+					document.getElementById(argobj.pid+"_contents_en").style.display = g_isMSIE ? "inline" : "block";
+					document.getElementById(argobj.pid+"_cimg_en").src=document.getElementById(argobj.pid+"_img_en_0").src;
+					oCurObj.setAttribute("state","enabled");
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="UpdateContents" label="UpdateContents" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function UpdateContents(argobj)
+				{
+					if(argobj.pid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					var	oSlides = g_oSlides.selectNodes("slide");
+					var oSlide,sName,sId,sIndent,oTmpl,clone,aTags;
+					var bPrevVisited = true;
+					var sCurrentSlideId = g_oSlide.getAttribute("id");
+					var oParams = g_oParams.selectSingleNode("./param[@objectid='"+argobj.pid+"']")
+					var sMsg = oParams.selectSingleNode("msg").text;
+					if(sMsg==null) sMsg = "You cannot jump to this slide until you visit previous slides";
+					for(var i=0; i<oSlides.length;i++) {
+						oSlide = oSlides[i];
+						sName = oSlide.getAttribute("name");
+						sId = oSlide.getAttribute("id");
+						if(sId!=sCurrentSlideId) {
+							if(document.getElementById(argobj.pid+"_icon_"+sId).src==document.getElementById(argobj.pid+"_icon_visited").src) continue;
+							if(!g_bStrictOrder || (g_bStrictOrder && bPrevVisited)) {
+								document.getElementById(argobj.pid+"_td_"+sId).innerHTML = '<a href="#" onclick="var oArgs=new Object; oArgs.pid=\''+argobj.pid+'\'; oArgs.sid=\''+sId+'\'; CallMethod(\'nav_021_contents\',\'JumpToSlide\',oArgs); return false;">'+sName+'</a>';
+							} else {
+								document.getElementById(argobj.pid+"_td_"+sId).innerHTML = sName;
+								document.getElementById(argobj.pid+"_td_"+sId).title = sMsg;
+							}
+							if(SCOIsSlideVisited(oSlide)) {
+								bPrevVisited = true;
+								document.getElementById(argobj.pid+"_icon_"+sId).src = document.getElementById(argobj.pid+"_icon_visited").src;
+							} else {
+								bPrevVisited = false;
+								document.getElementById(argobj.pid+"_icon_"+sId).src = document.getElementById(argobj.pid+"_icon_unvisited").src;
+							}
+						} else {
+							bPrevVisited = true;
+							document.getElementById(argobj.pid+"_icon_"+sCurrentSlideId).src = document.getElementById(argobj.pid+"_icon_current").src;
+							document.getElementById(argobj.pid+"_td_"+sCurrentSlideId).innerHTML = "<b>"+sName+"</b>";
+						}
+					}
+					if(oParams.selectSingleNode("hierarchy").text=="yes") {
+						var oCurDiv = document.getElementById(argobj.pid+"_item_"+sCurrentSlideId);
+						var oCurContents = document.getElementById(argobj.pid+"_contents");
+						var iCnt = 0;
+						while(oCurDiv!=oCurContents && iCnt<100) {
+							oCurDiv = oCurDiv.parentNode;
+							if(oCurDiv.nodeName.toLowerCase()=="div") {
+								if(oCurDiv.style.display == "none") oCurDiv.style.display = g_isMSIE ? "inline" : "block";
+							}
+							iCnt++;
+						}
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="JumpToSlide" label="JumpToSlide" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function JumpToSlide(argobj)
+				{
+					if(argobj.pid==null || argobj.sid==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					oCurObj.setAttribute("closed","1");
+					CallMethod("nav_021_contents","ToggleWindow",argobj);
+					OpenSlideById(argobj.sid);
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+		<method name="GetProperty" label="GetProperty" access="private">
+			<params>
+			</params>
+			<body>
+				<![CDATA[
+				function GetProperty(argobj)
+				{
+					if(argobj.pid==null || argobj.property==null) return false;
+					var oCurObj = document.getElementById(argobj.pid);
+					if(oCurObj==null) return false;
+					switch(argobj.property.toLowerCase()) {
+						case "disabled":	g_vPropertyValue = oCurObj.getAttribute("state")=="disabled" ? "1" : "0";	break;
+						case "open":		g_vPropertyValue = oCurObj.getAttribute("closed")=="1" ? "0" : "1";	break;
+						default: return true;
+					}
+					return true;
+				}
+				]]>
+			</body>
+		</method>
+	</methods>
+</params>

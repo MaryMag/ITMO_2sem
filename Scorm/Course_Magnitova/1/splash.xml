@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash screen file, saved 6/7/2017 1:00:13 PM by Мария Магнитова using CourseLab 090219 -->
+<splash>
+<settings>
+<showsplash>yes</showsplash>
+</settings>
+<data>
+<![CDATA[<img src="images/back_turq.jpg" style="position:absolute;left:0px;top:0px;width:750px;height:530px;"/><div style="position:absolute;left:535px;top:461px;width:166px;height:31px;"><img border="0" width="166" height="31" style="cursor:hand;cursor:pointer;" src="images/splash_button_go/button_start1.gif" onclick="this.src = 'images/splash_button_go/button_wait.gif'; StartModule();return false;"   /></div><div style="position:absolute;left:275px;top:358px;width:300px;height:58px;"><P><SPAN style="FONT-FAMILY: Arial"><SPAN style="FONT-SIZE: 12px"><B><SPAN style="COLOR: #fffffe"><SPAN style="FONT-SIZE: 18px"><SPAN style="COLOR: #804000"><SPAN style="COLOR: #e6fed3"><SPAN style="COLOR: #008000"><SPAN style="COLOR: #ddf7f5">Insert Course and/or Module Name</SPAN></SPAN></SPAN></SPAN></SPAN></B></SPAN></SPAN></SPAN></P></div><div style="position:absolute;left:531px;top:35px;width:166px;height:23px;"><P align=center><SPAN style="FONT-FAMILY: Arial"><SPAN style="FONT-SIZE: 12px">Insert logo</SPAN></SPAN></P></div>]]>
+</data>
+</splash>
